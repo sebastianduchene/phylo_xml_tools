@@ -6,6 +6,7 @@ Sebastian Duchene
 May 22 2014
 
 
+
 In this example I show how to randomise the dates for BEAST XML files with the python script randomise_dates.py. The script has been tested in Unix machines, but it should work on windows computers with a python installation. 
 
 Downloaad randomise_dates.py and the example_file or this complete repository.
@@ -69,3 +70,6 @@ I have saved the files in /Users/sebastianduchene/Desktop/deprate_sims2/git_test
 ```
 
 9- Run these files in BEAST. The output for the log, trees, and ops files are the same as those of the randomised files. In thsi example it would be random_test1.log, random_test1.trees and random_test1.ops,
+
+
+- June 1 2024: Added R code to generate xml files from a fasta file. (Formated for BEAST 1.8)
