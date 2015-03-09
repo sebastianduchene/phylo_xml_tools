@@ -31,7 +31,7 @@ c_list <- function(mat_list){
 	# Make a list with the columns of interest from the randomised analyses.
 	# Pull out a vector of the column of interest from the true data set.
 
-plot_drt <- function(true_data, rand_dat, out_plot_name){
+plot_drt <- function(true_data, rand_log_files, out_plot_name){
     require(ggplot2)
 
     rand_log_tails <- list()
