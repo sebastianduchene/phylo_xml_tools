@@ -1,0 +1,4 @@
+
+# to extract the mean only:
+gsub('[[](&|[0-9]|%|=| |[{]|[}]|[.]|,|[]])+', '', text_tree)
+after doing this, concatenate the trees in a nexus file and pass them through tree annotator
