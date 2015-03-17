@@ -59,7 +59,8 @@ plot_drt <- function(true_data, rand_log_files, out_plot_name){
 }
 
 
+# Test with Moureau data set
 #rand_log_files <- lapply(dir('.', pattern = 'random.+log'), function(x) log10(read.table(x, head = T)$ucld.mean))
-#true_dat <- log10(read.table('Heinze_TBF.log', head = T)$ucld.mean)
+#true_dat <- log10(read.table('Moureau_dates.log', head = T)$ucld.mean)
 
 #plot_drt(true_dat, rand_log_files)
