@@ -1,0 +1,9 @@
+dir()
+tree_files <- dir(pattern = '[.]tre')
+print(tree_files)
+
+for(i in tree_files){
+    tree_lines <- readLines(i)
+    tree_lines <- gsub('[[](&|[0-9]|%|=| |[{]|[}]|[.]|,|[]])+', '', tree_lines)
+    writeLines(tree_lines, con = paste0('mod_', i), sep = '\n')
+}
