@@ -1,6 +1,14 @@
 # Using SRD06 model. This is two partitions for 1+2 and 3 codon postions. Both use HKY+G with 4 categories
-sim_goldman_cox <- function(dna_data, parallel = F, nsims = 10){
+sim_goldman_cox <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE){
     require(phangorn)
+
+    if(rm_gaps){
+        cat('Warning: I will remove sites with gaps\n')
+        no_gaps <- which(sapply(1:ncol(dna_data), function(x) if('-' %in% as.character(dna_data[,x])){ FALSE}else{TRUE}))
+        print(paste(length(no_gaps), 'sites with no gaps\n'))
+        if(length(no_gaps) == 0) stop('all sites have gaps')
+        dna_data<- dna_data[, no_gaps]
+    }
 
     multlik <- function(al){
 	if(class(al) != "DNAbin"){ al <- as.list(as.DNAbin(al)) } else { al <- as.list(al) }
