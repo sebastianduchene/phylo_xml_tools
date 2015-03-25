@@ -38,18 +38,21 @@ plot_drt <- function(true_data, rand_log_files, out_plot_name){
     for(i in 1:length(rand_log_files)){
         rand_data_temp <- rand_log_files[[i]]
         rand_log_tails[[i]]<- rand_data_temp[(length(rand_data_temp) - 1000):length(rand_data_temp)]
+
     }
 
-    complete_frame <- data.frame(cbind(true_dat[(length(true_dat)-1000):length(true_dat)], c_list(rand_log_tails)))
-    colnames(complete_frame) <- c('true_dat', paste0('randomisation_', 1:length(rand_log_tails)))
 
-    plot_data <- rbind(mean_vals = colMeans(complete_frame), sapply(1:ncol(complete_frame), function(x) quantile(complete_frame[, x], c(0.025, 0.975))),  loc_vals = c(1, seq(from = 2.1, to = 3, by = 1/ length(rand_log_tails))) )
+    complete_frame <- data.frame(cbind(true_data[(length(true_data)-1000):length(true_data)], c_list(rand_log_tails)))
+    colnames(complete_frame) <- c('true_data', paste0('randomisation_', 1:length(rand_log_tails)))
+
+    plot_data <- rbind(mean_vals = colMeans(complete_frame), sapply(1:ncol(complete_frame), function(x) quantile(complete_frame[, x], c(0.025, 0.975))),  loc_vals = c(2, seq(from = 2.1, to = 3, by = 1/ length(rand_log_tails))) )
     plot_data <- t(plot_data)
     plot_data <- data.frame(plot_data, cols = c('black', rep('grey', nrow(plot_data) -1 )))
     colnames(plot_data) <- c('mean_vals', 'lower', 'upper', 'loc_vals', 'cols')
 
-    plot_dat_1 <- ggplot(plot_data, aes(x = loc_vals, y = mean_vals, colour = cols)) + geom_point() + geom_errorbar(aes(ymin = lower, ymax = upper, width = .01)) + theme_bw() + scale_color_manual(values = c('black', 'grey')) + guides(colour = FALSE) + ylab(expression(paste('Substitution rate (', log[10], ' subs/site/year)')))
+    plot_dat_1 <- ggplot(plot_data, aes(x = loc_vals, y = mean_vals, colour = cols)) + geom_point() + geom_errorbar(aes(ymin = lower, ymax = upper, width = .01), size  = 0.8) + theme_bw() + scale_color_manual(values = c('black', 'grey')) + guides(colour = FALSE) + ylab(expression(paste('Substitution rate (', log[10], ' subs/site/year)')))
     print(plot_dat_1)
+    return(plot_dat_1)
 
     if(!missing(out_plot_name)){
         pdf(out_plot_name, useDingbats = F)
@@ -57,7 +60,7 @@ plot_drt <- function(true_data, rand_log_files, out_plot_name){
         dev.off()
     }
 }
-
+m
 
 # Test with Moureau data set
 #rand_log_files <- lapply(dir('.', pattern = 'random.+log'), function(x) log10(read.table(x, head = T)$ucld.mean))

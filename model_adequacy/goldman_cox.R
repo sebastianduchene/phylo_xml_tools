@@ -75,7 +75,7 @@ sim_goldman_cox <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE){
         sims_cp3 <- foreach(x = 1:nsims, .packages  = c('phangorn', 'ape'), .combine = c) %dopar% get_sim_rep(ml_cp3, cp3)
     }else{
         sims_cp3 <- vector()
-        for(i in 1:5){
+        for(i in 1:nsims){
             sims_cp3[i] <- get_sim_rep(ml_cp3, cp3)
         }
     }
