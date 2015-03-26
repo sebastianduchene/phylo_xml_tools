@@ -2,14 +2,6 @@
 sim_goldman_cox <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE){
     require(phangorn)
 
-    if(rm_gaps){
-        cat('Warning: I will remove sites with gaps\n')
-        no_gaps <- which(sapply(1:ncol(dna_data), function(x) if('-' %in% as.character(dna_data[,x])){ FALSE}else{TRUE}))
-        print(paste(length(no_gaps), 'sites with no gaps\n'))
-        if(length(no_gaps) == 0) stop('all sites have gaps')
-        dna_data<- dna_data[, no_gaps]
-    }
-
     multlik <- function(al){
 	if(class(al) != "DNAbin"){ al <- as.list(as.DNAbin(al)) } else { al <- as.list(al) }
 	mat <- as.character(as.list(as.matrix(al))[[1]])
@@ -30,9 +22,25 @@ sim_goldman_cox <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE){
 	return(liks)
     }
 
+    rem_gaps <- function(dna_data){
+    	     has_gap <- function(x){
+	        return(!(any(c('a', 'c', 'g', 't') %in% x) & !any(c('-', 'n') %in% x) & length(unique(x)) <= 4))
+	     }
+
+	     gap_sites <- sapply(1:ncol(dna_data), function(d) has_gap(as.character(dna_data[, d])))
+	     return(dna_data[, !gap_sites])
+    }
+
     start_tree <- nj(dist.ml(phyDat(dna_data)))
-    cp12 <- phyDat(dna_data[, -(seq(from = 3, to = ncol(dna_data), by = 3))])
-    cp3 <- phyDat(dna_data[, seq(from = 3, to = ncol(dna_data), by = 3)])
+
+# Excluding gaps, as suggested by Ripplinger and Sullivan (). This should be done after selecting codon positions to avoid shifts in the readong frame.
+    if(rm_gaps){
+	cp12 <- phyDat(rem_gaps(dna_data[, -(seq(from = 3, to = ncol(dna_data), by = 3))]) )
+    	cp3 <- phyDat(rem_gaps(dna_data[, seq(from = 3, to = ncol(dna_data), by = 3)]) )
+    }else{
+	cp12 <- phyDat(dna_data[, -(seq(from = 3, to = ncol(dna_data), by = 3))])
+	cp3 <- phyDat(dna_data[, seq(from = 3, to = ncol(dna_data), by = 3)])
+    }
 
     opt_data <- function(dna_data) optim.pml(pml(tree = start_tree, data = dna_data, k = 4, model = 'HKY'), optNni = T, optBf = T, optQ = T, optGamma = T, model = 'HKY')
 
@@ -52,10 +60,9 @@ sim_goldman_cox <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE){
     if(parallel){
         require(foreach)
         require(doParallel)
-        cl <- makeCluster(4)
+        cl <- makeCluster(10)
         registerDoParallel(cl)
         sims_cp12 <- foreach(x = 1:nsims, .packages = c('phangorn', 'ape'), .combine = c) %dopar% get_sim_rep(ml_cp12, cp12)
-
         stopCluster(cl)
     }else{
         sims_cp12 <- vector()
@@ -69,10 +76,11 @@ sim_goldman_cox <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE){
     con_lik_cp3 <- ml_cp3$logLik
 
     if(parallel){
-        cl <- makeCluster(4)
+        cl <- makeCluster(10)
         require(doParallel)
         registerDoParallel(cl)
         sims_cp3 <- foreach(x = 1:nsims, .packages  = c('phangorn', 'ape'), .combine = c) %dopar% get_sim_rep(ml_cp3, cp3)
+	stopCluster(cl)
     }else{
         sims_cp3 <- vector()
         for(i in 1:nsims){
