@@ -60,7 +60,7 @@ plot_drt <- function(true_data, rand_log_files, out_plot_name){
         dev.off()
     }
 }
-m
+
 
 # Test with Moureau data set
 #rand_log_files <- lapply(dir('.', pattern = 'random.+log'), function(x) log10(read.table(x, head = T)$ucld.mean))
