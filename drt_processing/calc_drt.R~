@@ -51,7 +51,7 @@ plot_drt <- function(true_data, rand_log_files, out_plot_name){
     colnames(plot_data) <- c('mean_vals', 'lower', 'upper', 'loc_vals', 'cols')
 
     plot_dat_1 <- ggplot(plot_data, aes(x = loc_vals, y = mean_vals, colour = cols)) + geom_point() + geom_errorbar(aes(ymin = lower, ymax = upper, width = .01), size  = 0.8) + theme_bw() + scale_color_manual(values = c('black', 'grey')) + guides(colour = FALSE) + ylab(expression(paste('Substitution rate (', log[10], ' subs/site/year)')))
-#    print(plot_dat_1)
+    print(plot_dat_1)
     return(plot_dat_1)
 
     if(!missing(out_plot_name)){
