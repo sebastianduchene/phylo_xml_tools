@@ -1,0 +1,2081 @@
+Loading required package: ape
+
+Attaching package: ‘phangorn’
+
+The following object is masked from ‘package:ape’:
+
+    as.prop.part
+
+50 sequences with 5000 character and 2426 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42787.01 --> -42784.23 
+optimize edge weights:  -42784.23 --> -42784.23 
+optimize topology:  -42784.23 --> -42784.23 
+0 
+optimize edge weights:  -42784.23 --> -42784.23 
+
+ loglikelihood: -42784.23 
+
+unconstrained loglikelihood: -31132.8 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+Loading required package: foreach
+Loading required package: doParallel
+Loading required package: iterators
+Loading required package: parallel
+50 sequences with 5000 character and 2371 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42085.61 --> -42082.62 
+optimize edge weights:  -42082.62 --> -42082.62 
+optimize topology:  -42082.62 --> -42082.62 
+0 
+optimize edge weights:  -42082.62 --> -42082.62 
+
+ loglikelihood: -42082.62 
+
+unconstrained loglikelihood: -30779.71 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2366 different site patterns.
+The states are a c g t 
+optimize edge weights:  -41887.69 --> -41885.16 
+optimize edge weights:  -41885.16 --> -41885.16 
+optimize topology:  -41885.16 --> -41885.16 
+0 
+optimize edge weights:  -41885.16 --> -41885.16 
+
+ loglikelihood: -41885.16 
+
+unconstrained loglikelihood: -30805.01 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2440 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42994.68 --> -42992.7 
+optimize edge weights:  -42992.7 --> -42992.7 
+optimize topology:  -42992.7 --> -42992.7 
+0 
+optimize edge weights:  -42992.7 --> -42992.7 
+
+ loglikelihood: -42992.7 
+
+unconstrained loglikelihood: -31182.55 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2343 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42067.3 --> -42064.86 
+optimize edge weights:  -42064.86 --> -42064.86 
+optimize topology:  -42064.86 --> -42064.86 
+0 
+optimize edge weights:  -42064.86 --> -42064.86 
+
+ loglikelihood: -42064.86 
+
+unconstrained loglikelihood: -30849.97 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2316 different site patterns.
+The states are a c g t 
+optimize edge weights:  -41389.97 --> -41387.29 
+optimize edge weights:  -41387.29 --> -41387.29 
+optimize topology:  -41387.29 --> -41387.29 
+0 
+optimize edge weights:  -41387.29 --> -41387.29 
+
+ loglikelihood: -41387.29 
+
+unconstrained loglikelihood: -30386.61 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2438 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42520.79 --> -42517.83 
+optimize edge weights:  -42517.83 --> -42517.83 
+optimize topology:  -42517.83 --> -42517.83 
+0 
+optimize edge weights:  -42517.83 --> -42517.83 
+
+ loglikelihood: -42517.83 
+
+unconstrained loglikelihood: -31144.06 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2435 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43029.8 --> -43026.58 
+optimize edge weights:  -43026.58 --> -43026.58 
+optimize topology:  -43026.58 --> -43026.58 
+0 
+optimize edge weights:  -43026.58 --> -43026.58 
+
+ loglikelihood: -43026.58 
+
+unconstrained loglikelihood: -31186 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2515 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44128.29 --> -44126.1 
+optimize edge weights:  -44126.1 --> -44126.1 
+optimize topology:  -44126.1 --> -44126.1 
+0 
+optimize edge weights:  -44126.1 --> -44126.1 
+
+ loglikelihood: -44126.1 
+
+unconstrained loglikelihood: -31719.07 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2504 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43924.58 --> -43921.75 
+optimize edge weights:  -43921.75 --> -43921.75 
+optimize topology:  -43921.75 --> -43921.75 
+0 
+optimize edge weights:  -43921.75 --> -43921.75 
+
+ loglikelihood: -43921.75 
+
+unconstrained loglikelihood: -31655.8 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2348 different site patterns.
+The states are a c g t 
+optimize edge weights:  -41592.41 --> -41590.65 
+optimize base frequencies:  -41590.65 --> -41589.19 
+optimize rate matrix:  -41589.19 --> -41588.65 
+optimize edge weights:  -41588.65 --> -41588.65 
+optimize topology:  -41588.65 --> -41588.65 
+0 
+optimize base frequencies:  -41588.65 --> -41588.57 
+optimize rate matrix:  -41588.57 --> -41588.56 
+optimize edge weights:  -41588.56 --> -41588.56 
+optimize base frequencies:  -41588.56 --> -41588.56 
+optimize rate matrix:  -41588.56 --> -41588.56 
+optimize edge weights:  -41588.56 --> -41588.56 
+optimize base frequencies:  -41588.56 --> -41588.56 
+optimize rate matrix:  -41588.56 --> -41588.56 
+optimize edge weights:  -41588.56 --> -41588.56 
+
+ loglikelihood: -41588.56 
+
+unconstrained loglikelihood: -30636.94 
+
+Rate matrix:
+          a         c         g         t
+a 0.0000000 0.9658391 0.9883393 1.0129907
+c 0.9658391 0.0000000 0.9684660 0.9790463
+g 0.9883393 0.9684660 0.0000000 1.0000000
+t 1.0129907 0.9790463 1.0000000 0.0000000
+
+Base frequencies:  
+0.2497148 0.252414 0.2555714 0.2422998 
+50 sequences with 5000 character and 2394 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42645.88 --> -42643.7 
+optimize base frequencies:  -42643.7 --> -42641.78 
+optimize rate matrix:  -42641.78 --> -42640.71 
+optimize edge weights:  -42640.71 --> -42640.71 
+optimize topology:  -42640.71 --> -42640.71 
+0 
+optimize base frequencies:  -42640.71 --> -42640.54 
+optimize rate matrix:  -42640.54 --> -42640.51 
+optimize edge weights:  -42640.51 --> -42640.51 
+optimize base frequencies:  -42640.51 --> -42640.51 
+optimize rate matrix:  -42640.51 --> -42640.51 
+optimize edge weights:  -42640.51 --> -42640.51 
+optimize base frequencies:  -42640.51 --> -42640.51 
+optimize rate matrix:  -42640.51 --> -42640.51 
+optimize edge weights:  -42640.51 --> -42640.51 
+optimize base frequencies:  -42640.51 --> -42640.51 
+optimize rate matrix:  -42640.51 --> -42640.51 
+optimize edge weights:  -42640.51 --> -42640.51 
+
+ loglikelihood: -42640.51 
+
+unconstrained loglikelihood: -31051.06 
+
+Rate matrix:
+          a         c         g         t
+a 0.0000000 0.9450742 0.9798027 1.0041046
+c 0.9450742 0.0000000 0.9461185 0.9807381
+g 0.9798027 0.9461185 0.0000000 1.0000000
+t 1.0041046 0.9807381 1.0000000 0.0000000
+
+Base frequencies:  
+0.2568056 0.2516105 0.2434874 0.2480965 
+50 sequences with 5000 character and 2565 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44356 --> -44353.83 
+optimize base frequencies:  -44353.83 --> -44349.77 
+optimize rate matrix:  -44349.77 --> -44347.93 
+optimize edge weights:  -44347.93 --> -44347.92 
+optimize topology:  -44347.92 --> -44347.92 
+0 
+optimize base frequencies:  -44347.92 --> -44347.7 
+optimize rate matrix:  -44347.7 --> -44347.66 
+optimize edge weights:  -44347.66 --> -44347.66 
+optimize base frequencies:  -44347.66 --> -44347.66 
+optimize rate matrix:  -44347.66 --> -44347.66 
+optimize edge weights:  -44347.66 --> -44347.66 
+optimize base frequencies:  -44347.66 --> -44347.66 
+optimize rate matrix:  -44347.66 --> -44347.66 
+optimize edge weights:  -44347.66 --> -44347.66 
+
+ loglikelihood: -44347.66 
+
+unconstrained loglikelihood: -32074.97 
+
+Rate matrix:
+          a         c         g        t
+a 0.0000000 0.9723143 1.0214709 1.024553
+c 0.9723143 0.0000000 0.9445175 1.011620
+g 1.0214709 0.9445175 0.0000000 1.000000
+t 1.0245528 1.0116196 1.0000000 0.000000
+
+Base frequencies:  
+0.2523244 0.2610048 0.2488881 0.2377827 
+50 sequences with 5000 character and 2488 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43962.89 --> -43960.17 
+optimize base frequencies:  -43960.17 --> -43957.21 
+optimize rate matrix:  -43957.21 --> -43956.41 
+optimize edge weights:  -43956.41 --> -43956.41 
+optimize topology:  -43956.41 --> -43956.41 
+0 
+optimize base frequencies:  -43956.41 --> -43956.3 
+optimize rate matrix:  -43956.3 --> -43956.28 
+optimize edge weights:  -43956.28 --> -43956.28 
+optimize base frequencies:  -43956.28 --> -43956.28 
+optimize rate matrix:  -43956.28 --> -43956.28 
+optimize edge weights:  -43956.28 --> -43956.28 
+optimize base frequencies:  -43956.28 --> -43956.28 
+optimize rate matrix:  -43956.28 --> -43956.28 
+optimize edge weights:  -43956.28 --> -43956.28 
+
+ loglikelihood: -43956.28 
+
+unconstrained loglikelihood: -31657.41 
+
+Rate matrix:
+         a        c        g        t
+a 0.000000 1.056694 1.015425 1.040771
+c 1.056694 0.000000 1.052707 1.038400
+g 1.015425 1.052707 0.000000 1.000000
+t 1.040771 1.038400 1.000000 0.000000
+
+Base frequencies:  
+0.252273 0.2417827 0.2467311 0.2592132 
+50 sequences with 5000 character and 2594 different site patterns.
+The states are a c g t 
+optimize edge weights:  -45253.84 --> -45250.95 
+optimize base frequencies:  -45250.95 --> -45247.83 
+optimize rate matrix:  -45247.83 --> -45246.27 
+optimize edge weights:  -45246.27 --> -45246.27 
+optimize topology:  -45246.27 --> -45246.27 
+0 
+optimize base frequencies:  -45246.27 --> -45246.05 
+optimize rate matrix:  -45246.05 --> -45246.01 
+optimize edge weights:  -45246.01 --> -45246.01 
+optimize base frequencies:  -45246.01 --> -45246 
+optimize rate matrix:  -45246 --> -45246 
+optimize edge weights:  -45246 --> -45246 
+optimize base frequencies:  -45246 --> -45246 
+optimize rate matrix:  -45246 --> -45246 
+optimize edge weights:  -45246 --> -45246 
+
+ loglikelihood: -45246 
+
+unconstrained loglikelihood: -32244.68 
+
+Rate matrix:
+         a         c         g        t
+a 0.000000 1.0336272 1.0658527 1.068083
+c 1.033627 0.0000000 0.9971647 1.024310
+g 1.065853 0.9971647 0.0000000 1.000000
+t 1.068083 1.0243103 1.0000000 0.000000
+
+Base frequencies:  
+0.2396016 0.2534154 0.2481991 0.2587839 
+50 sequences with 5000 character and 2390 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42867.11 --> -42865.17 
+optimize base frequencies:  -42865.17 --> -42863.78 
+optimize rate matrix:  -42863.78 --> -42861.11 
+optimize edge weights:  -42861.11 --> -42861.11 
+optimize topology:  -42861.11 --> -42861.11 
+0 
+optimize base frequencies:  -42861.11 --> -42860.75 
+optimize rate matrix:  -42860.75 --> -42860.68 
+optimize edge weights:  -42860.68 --> -42860.68 
+optimize base frequencies:  -42860.68 --> -42860.67 
+optimize rate matrix:  -42860.67 --> -42860.67 
+optimize edge weights:  -42860.67 --> -42860.67 
+optimize base frequencies:  -42860.67 --> -42860.67 
+optimize rate matrix:  -42860.67 --> -42860.67 
+optimize edge weights:  -42860.67 --> -42860.67 
+
+ loglikelihood: -42860.67 
+
+unconstrained loglikelihood: -31159.09 
+
+Rate matrix:
+         a         c         g        t
+a 0.000000 1.0691221 1.0915300 1.089950
+c 1.069122 0.0000000 0.9997223 1.056824
+g 1.091530 0.9997223 0.0000000 1.000000
+t 1.089950 1.0568240 1.0000000 0.000000
+
+Base frequencies:  
+0.251961 0.2456546 0.2523849 0.2499995 
+50 sequences with 5000 character and 2502 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43941.06 --> -43939.19 
+optimize base frequencies:  -43939.19 --> -43937.23 
+optimize rate matrix:  -43937.23 --> -43935.01 
+optimize edge weights:  -43935.01 --> -43935.01 
+optimize topology:  -43935.01 --> -43935.01 
+0 
+optimize base frequencies:  -43935.01 --> -43934.87 
+optimize rate matrix:  -43934.87 --> -43934.85 
+optimize edge weights:  -43934.85 --> -43934.85 
+optimize base frequencies:  -43934.85 --> -43934.84 
+optimize rate matrix:  -43934.84 --> -43934.84 
+optimize edge weights:  -43934.84 --> -43934.84 
+optimize base frequencies:  -43934.84 --> -43934.84 
+optimize rate matrix:  -43934.84 --> -43934.84 
+optimize edge weights:  -43934.84 --> -43934.84 
+optimize base frequencies:  -43934.84 --> -43934.84 
+optimize rate matrix:  -43934.84 --> -43934.84 
+optimize edge weights:  -43934.84 --> -43934.84 
+
+ loglikelihood: -43934.84 
+
+unconstrained loglikelihood: -31596.5 
+
+Rate matrix:
+          a         c         g         t
+a 0.0000000 1.0753603 0.9776689 0.9970981
+c 1.0753603 0.0000000 1.0104193 0.9933797
+g 0.9776689 1.0104193 0.0000000 1.0000000
+t 0.9970981 0.9933797 1.0000000 0.0000000
+
+Base frequencies:  
+0.2439633 0.2555927 0.2512166 0.2492274 
+50 sequences with 5000 character and 2438 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43114.42 --> -43111.62 
+optimize base frequencies:  -43111.62 --> -43109.95 
+optimize rate matrix:  -43109.95 --> -43109.49 
+optimize edge weights:  -43109.49 --> -43109.49 
+optimize topology:  -43109.49 --> -43109.49 
+0 
+optimize base frequencies:  -43109.49 --> -43109.43 
+optimize rate matrix:  -43109.43 --> -43109.42 
+optimize edge weights:  -43109.42 --> -43109.42 
+optimize base frequencies:  -43109.42 --> -43109.41 
+optimize rate matrix:  -43109.41 --> -43109.41 
+optimize edge weights:  -43109.41 --> -43109.41 
+optimize base frequencies:  -43109.41 --> -43109.41 
+optimize rate matrix:  -43109.41 --> -43109.41 
+optimize edge weights:  -43109.41 --> -43109.41 
+
+ loglikelihood: -43109.41 
+
+unconstrained loglikelihood: -31440.45 
+
+Rate matrix:
+         a         c         g         t
+a 0.000000 1.0015774 1.0295522 1.0008882
+c 1.001577 0.0000000 0.9848752 0.9831499
+g 1.029552 0.9848752 0.0000000 1.0000000
+t 1.000888 0.9831499 1.0000000 0.0000000
+
+Base frequencies:  
+0.2539833 0.2447007 0.2484813 0.2528347 
+50 sequences with 5000 character and 2446 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43000.99 --> -42997.69 
+optimize base frequencies:  -42997.69 --> -42997.15 
+optimize rate matrix:  -42997.15 --> -42995.4 
+optimize edge weights:  -42995.4 --> -42995.4 
+optimize topology:  -42995.4 --> -42995.4 
+0 
+optimize base frequencies:  -42995.4 --> -42995.2 
+optimize rate matrix:  -42995.2 --> -42995.17 
+optimize edge weights:  -42995.17 --> -42995.17 
+optimize base frequencies:  -42995.17 --> -42995.16 
+optimize rate matrix:  -42995.16 --> -42995.16 
+optimize edge weights:  -42995.16 --> -42995.16 
+optimize base frequencies:  -42995.16 --> -42995.16 
+optimize rate matrix:  -42995.16 --> -42995.16 
+optimize edge weights:  -42995.16 --> -42995.16 
+optimize base frequencies:  -42995.16 --> -42995.16 
+optimize rate matrix:  -42995.16 --> -42995.16 
+optimize edge weights:  -42995.16 --> -42995.16 
+
+ loglikelihood: -42995.16 
+
+unconstrained loglikelihood: -31137.67 
+
+Rate matrix:
+          a         c         g         t
+a 0.0000000 0.9906171 0.9302811 1.0211001
+c 0.9906171 0.0000000 0.9711818 0.9948396
+g 0.9302811 0.9711818 0.0000000 1.0000000
+t 1.0211001 0.9948396 1.0000000 0.0000000
+
+Base frequencies:  
+0.2468196 0.2532724 0.2529943 0.2469137 
+50 sequences with 5000 character and 2479 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44560.03 --> -44556.83 
+optimize base frequencies:  -44556.83 --> -44555.98 
+optimize rate matrix:  -44555.98 --> -44553.17 
+optimize edge weights:  -44553.17 --> -44553.17 
+optimize topology:  -44553.17 --> -44553.17 
+0 
+optimize base frequencies:  -44553.17 --> -44552.97 
+optimize rate matrix:  -44552.97 --> -44552.93 
+optimize edge weights:  -44552.93 --> -44552.93 
+optimize base frequencies:  -44552.93 --> -44552.92 
+optimize rate matrix:  -44552.92 --> -44552.91 
+optimize edge weights:  -44552.91 --> -44552.91 
+optimize base frequencies:  -44552.91 --> -44552.91 
+optimize rate matrix:  -44552.91 --> -44552.91 
+optimize edge weights:  -44552.91 --> -44552.91 
+optimize base frequencies:  -44552.91 --> -44552.91 
+optimize rate matrix:  -44552.91 --> -44552.91 
+optimize edge weights:  -44552.91 --> -44552.91 
+
+ loglikelihood: -44552.91 
+
+unconstrained loglikelihood: -31783.72 
+
+Rate matrix:
+          a         c         g         t
+a 0.0000000 0.9249965 0.9377440 0.9660443
+c 0.9249965 0.0000000 0.9894625 0.9107566
+g 0.9377440 0.9894625 0.0000000 1.0000000
+t 0.9660443 0.9107566 1.0000000 0.0000000
+
+Base frequencies:  
+0.2508107 0.2490618 0.2454194 0.2547081 
+50 sequences with 5000 character and 2489 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44217.47 --> -44209.52 
+optimize base frequencies:  -44209.52 --> -44208.35 
+optimize rate matrix:  -44208.35 --> -44204.45 
+optimize shape parameter:  -44204.45 --> -43816.32 
+optimize edge weights:  -43816.32 --> -43805.95 
+optimize topology:  -43805.95 --> -43805.95 
+0 
+optimize base frequencies:  -43805.95 --> -43805.55 
+optimize rate matrix:  -43805.55 --> -43805.45 
+optimize shape parameter:  -43805.45 --> -43805.45 
+optimize edge weights:  -43805.45 --> -43805.45 
+optimize base frequencies:  -43805.45 --> -43805.43 
+optimize rate matrix:  -43805.43 --> -43805.43 
+optimize shape parameter:  -43805.43 --> -43805.43 
+optimize edge weights:  -43805.43 --> -43805.43 
+optimize base frequencies:  -43805.43 --> -43805.43 
+optimize rate matrix:  -43805.43 --> -43805.43 
+optimize shape parameter:  -43805.43 --> -43805.43 
+optimize edge weights:  -43805.43 --> -43805.43 
+optimize base frequencies:  -43805.43 --> -43805.43 
+optimize rate matrix:  -43805.43 --> -43805.43 
+optimize shape parameter:  -43805.43 --> -43805.43 
+optimize edge weights:  -43805.43 --> -43805.43 
+
+ loglikelihood: -43805.43 
+
+unconstrained loglikelihood: -31408.18 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 44.28289 
+
+Rate matrix:
+          a         c         g        t
+a 0.0000000 0.9063191 1.0300365 1.015075
+c 0.9063191 0.0000000 0.9838399 1.021174
+g 1.0300365 0.9838399 0.0000000 1.000000
+t 1.0150754 1.0211738 1.0000000 0.000000
+
+Base frequencies:  
+0.2557785 0.2543549 0.2420337 0.2478329 
+50 sequences with 5000 character and 2496 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44261.15 --> -44253.11 
+optimize base frequencies:  -44253.11 --> -44252.44 
+optimize rate matrix:  -44252.44 --> -44250.62 
+optimize shape parameter:  -44250.62 --> -43840.39 
+optimize edge weights:  -43840.39 --> -43829.8 
+optimize topology:  -43829.8 --> -43829.8 
+0 
+optimize base frequencies:  -43829.8 --> -43829.68 
+optimize rate matrix:  -43829.68 --> -43829.59 
+optimize shape parameter:  -43829.59 --> -43829.58 
+optimize edge weights:  -43829.58 --> -43829.58 
+optimize base frequencies:  -43829.58 --> -43829.57 
+optimize rate matrix:  -43829.57 --> -43829.56 
+optimize shape parameter:  -43829.56 --> -43829.56 
+optimize edge weights:  -43829.56 --> -43829.56 
+optimize base frequencies:  -43829.56 --> -43829.56 
+optimize rate matrix:  -43829.56 --> -43829.56 
+optimize shape parameter:  -43829.56 --> -43829.56 
+optimize edge weights:  -43829.56 --> -43829.56 
+
+ loglikelihood: -43829.56 
+
+unconstrained loglikelihood: -31550.35 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 136.3321 
+
+Rate matrix:
+          a         c         g         t
+a 0.0000000 1.0336725 0.9421502 1.0079568
+c 1.0336725 0.0000000 0.9794005 0.9866391
+g 0.9421502 0.9794005 0.0000000 1.0000000
+t 1.0079568 0.9866391 1.0000000 0.0000000
+
+Base frequencies:  
+0.2516877 0.2498852 0.2478746 0.2505525 
+50 sequences with 5000 character and 2402 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42697.81 --> -42691.01 
+optimize base frequencies:  -42691.01 --> -42689.66 
+optimize rate matrix:  -42689.66 --> -42689.01 
+optimize shape parameter:  -42689.01 --> -42328.75 
+optimize edge weights:  -42328.75 --> -42320.46 
+optimize topology:  -42320.46 --> -42320.46 
+0 
+optimize base frequencies:  -42320.46 --> -42320.36 
+optimize rate matrix:  -42320.36 --> -42320.32 
+optimize shape parameter:  -42320.32 --> -42320.31 
+optimize edge weights:  -42320.31 --> -42320.31 
+optimize base frequencies:  -42320.31 --> -42320.31 
+optimize rate matrix:  -42320.31 --> -42320.31 
+optimize shape parameter:  -42320.31 --> -42320.31 
+optimize edge weights:  -42320.31 --> -42320.31 
+optimize base frequencies:  -42320.31 --> -42320.31 
+optimize rate matrix:  -42320.31 --> -42320.31 
+optimize shape parameter:  -42320.31 --> -42320.31 
+optimize edge weights:  -42320.31 --> -42320.31 
+optimize base frequencies:  -42320.31 --> -42320.31 
+optimize rate matrix:  -42320.31 --> -42320.31 
+optimize shape parameter:  -42320.31 --> -42320.31 
+optimize edge weights:  -42320.31 --> -42320.31 
+
+ loglikelihood: -42320.31 
+
+unconstrained loglikelihood: -30844.86 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 35.89866 
+
+Rate matrix:
+          a         c         g         t
+a 0.0000000 0.9564122 0.9762735 0.9495983
+c 0.9564122 0.0000000 0.9603922 0.9423080
+g 0.9762735 0.9603922 0.0000000 1.0000000
+t 0.9495983 0.9423080 1.0000000 0.0000000
+
+Base frequencies:  
+0.2459941 0.2549349 0.2440743 0.2549966 
+50 sequences with 5000 character and 2458 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43898.87 --> -43890.9 
+optimize base frequencies:  -43890.9 --> -43889.86 
+optimize rate matrix:  -43889.86 --> -43888.25 
+optimize shape parameter:  -43888.25 --> -43482.89 
+optimize edge weights:  -43482.89 --> -43473.12 
+optimize topology:  -43473.12 --> -43473.12 
+0 
+optimize base frequencies:  -43473.12 --> -43472.88 
+optimize rate matrix:  -43472.88 --> -43472.78 
+optimize shape parameter:  -43472.78 --> -43472.78 
+optimize edge weights:  -43472.78 --> -43472.78 
+optimize base frequencies:  -43472.78 --> -43472.76 
+optimize rate matrix:  -43472.76 --> -43472.76 
+optimize shape parameter:  -43472.76 --> -43472.76 
+optimize edge weights:  -43472.76 --> -43472.76 
+optimize base frequencies:  -43472.76 --> -43472.76 
+optimize rate matrix:  -43472.76 --> -43472.76 
+optimize shape parameter:  -43472.76 --> -43472.76 
+optimize edge weights:  -43472.76 --> -43472.76 
+
+ loglikelihood: -43472.76 
+
+unconstrained loglikelihood: -31418.55 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 87.32031 
+
+Rate matrix:
+         a        c        g        t
+a 0.000000 1.064090 1.023924 1.053200
+c 1.064090 0.000000 1.004279 1.034488
+g 1.023924 1.004279 0.000000 1.000000
+t 1.053200 1.034488 1.000000 0.000000
+
+Base frequencies:  
+0.2535181 0.2460491 0.2501566 0.2502762 
+50 sequences with 5000 character and 2520 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44901.65 --> -44892.49 
+optimize base frequencies:  -44892.49 --> -44890.55 
+optimize rate matrix:  -44890.55 --> -44887.46 
+optimize shape parameter:  -44887.46 --> -44463.09 
+optimize edge weights:  -44463.09 --> -44451.22 
+optimize topology:  -44451.22 --> -44451.22 
+0 
+optimize base frequencies:  -44451.22 --> -44450.86 
+optimize rate matrix:  -44450.86 --> -44450.82 
+optimize shape parameter:  -44450.82 --> -44450.82 
+optimize edge weights:  -44450.82 --> -44450.82 
+optimize base frequencies:  -44450.82 --> -44450.81 
+optimize rate matrix:  -44450.81 --> -44450.81 
+optimize shape parameter:  -44450.81 --> -44450.81 
+optimize edge weights:  -44450.81 --> -44450.81 
+optimize base frequencies:  -44450.81 --> -44450.81 
+optimize rate matrix:  -44450.81 --> -44450.81 
+optimize shape parameter:  -44450.81 --> -44450.81 
+optimize edge weights:  -44450.81 --> -44450.81 
+
+ loglikelihood: -44450.81 
+
+unconstrained loglikelihood: -31769.58 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9958 
+
+Rate matrix:
+          a         c        g         t
+a 0.0000000 0.9537965 1.016594 1.0041404
+c 0.9537965 0.0000000 1.061728 0.9557629
+g 1.0165940 1.0617279 0.000000 1.0000000
+t 1.0041404 0.9557629 1.000000 0.0000000
+
+Base frequencies:  
+0.2446472 0.2561089 0.2503947 0.2488492 
+50 sequences with 5000 character and 2436 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43127.22 --> -43118.42 
+optimize base frequencies:  -43118.42 --> -43115.69 
+optimize rate matrix:  -43115.69 --> -43113.89 
+optimize shape parameter:  -43113.89 --> -42682.99 
+optimize edge weights:  -42682.99 --> -42673.09 
+optimize topology:  -42673.09 --> -42673.09 
+0 
+optimize base frequencies:  -42673.09 --> -42672.95 
+optimize rate matrix:  -42672.95 --> -42672.92 
+optimize shape parameter:  -42672.92 --> -42672.92 
+optimize edge weights:  -42672.92 --> -42672.92 
+optimize base frequencies:  -42672.92 --> -42672.91 
+optimize rate matrix:  -42672.91 --> -42672.91 
+optimize shape parameter:  -42672.91 --> -42672.91 
+optimize edge weights:  -42672.91 --> -42672.91 
+optimize base frequencies:  -42672.91 --> -42672.91 
+optimize rate matrix:  -42672.91 --> -42672.91 
+optimize shape parameter:  -42672.91 --> -42672.91 
+optimize edge weights:  -42672.91 --> -42672.91 
+
+ loglikelihood: -42672.91 
+
+unconstrained loglikelihood: -31269.72 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9961 
+
+Rate matrix:
+          a         c         g        t
+a 0.0000000 0.9704161 0.9705455 1.037634
+c 0.9704161 0.0000000 1.0312798 1.024457
+g 0.9705455 1.0312798 0.0000000 1.000000
+t 1.0376340 1.0244570 1.0000000 0.000000
+
+Base frequencies:  
+0.2435077 0.2534376 0.2483316 0.254723 
+50 sequences with 5000 character and 2536 different site patterns.
+The states are a c g t 
+optimize edge weights:  -45526.22 --> -45516.91 
+optimize base frequencies:  -45516.91 --> -45516.08 
+optimize rate matrix:  -45516.08 --> -45515 
+optimize shape parameter:  -45515 --> -45087.53 
+optimize edge weights:  -45087.53 --> -45077.65 
+optimize topology:  -45077.65 --> -45077.65 
+0 
+optimize base frequencies:  -45077.65 --> -45077.44 
+optimize rate matrix:  -45077.44 --> -45077.24 
+optimize shape parameter:  -45077.24 --> -45077.24 
+optimize edge weights:  -45077.24 --> -45077.24 
+optimize base frequencies:  -45077.24 --> -45077.18 
+optimize rate matrix:  -45077.18 --> -45077.17 
+optimize shape parameter:  -45077.17 --> -45077.17 
+optimize edge weights:  -45077.17 --> -45077.17 
+optimize base frequencies:  -45077.17 --> -45077.17 
+optimize rate matrix:  -45077.17 --> -45077.17 
+optimize shape parameter:  -45077.17 --> -45077.17 
+optimize edge weights:  -45077.17 --> -45077.17 
+
+ loglikelihood: -45077.17 
+
+unconstrained loglikelihood: -32112.67 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 30.77094 
+
+Rate matrix:
+         a         c         g         t
+a 0.000000 1.0392238 1.0399399 1.0123273
+c 1.039224 0.0000000 0.9710492 0.9821951
+g 1.039940 0.9710492 0.0000000 1.0000000
+t 1.012327 0.9821951 1.0000000 0.0000000
+
+Base frequencies:  
+0.2506557 0.2472254 0.2508493 0.2512696 
+50 sequences with 5000 character and 2408 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43140.22 --> -43131.46 
+optimize base frequencies:  -43131.46 --> -43130.6 
+optimize rate matrix:  -43130.6 --> -43129.56 
+optimize shape parameter:  -43129.56 --> -42670.12 
+optimize edge weights:  -42670.12 --> -42659.71 
+optimize topology:  -42659.71 --> -42659.71 
+0 
+optimize base frequencies:  -42659.71 --> -42659.57 
+optimize rate matrix:  -42659.57 --> -42659.46 
+optimize shape parameter:  -42659.46 --> -42659.46 
+optimize edge weights:  -42659.46 --> -42659.46 
+optimize base frequencies:  -42659.46 --> -42659.44 
+optimize rate matrix:  -42659.44 --> -42659.44 
+optimize shape parameter:  -42659.44 --> -42659.44 
+optimize edge weights:  -42659.44 --> -42659.44 
+optimize base frequencies:  -42659.44 --> -42659.44 
+optimize rate matrix:  -42659.44 --> -42659.43 
+optimize shape parameter:  -42659.43 --> -42659.43 
+optimize edge weights:  -42659.43 --> -42659.43 
+optimize base frequencies:  -42659.43 --> -42659.43 
+optimize rate matrix:  -42659.43 --> -42659.43 
+optimize shape parameter:  -42659.43 --> -42659.43 
+optimize edge weights:  -42659.43 --> -42659.43 
+
+ loglikelihood: -42659.43 
+
+unconstrained loglikelihood: -31354.33 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9965 
+
+Rate matrix:
+          a         c         g         t
+a 0.0000000 0.9631402 0.9778889 0.9869855
+c 0.9631402 0.0000000 1.0244997 1.0199053
+g 0.9778889 1.0244997 0.0000000 1.0000000
+t 0.9869855 1.0199053 1.0000000 0.0000000
+
+Base frequencies:  
+0.2545424 0.2512488 0.2513389 0.2428699 
+50 sequences with 5000 character and 2385 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42477.14 --> -42469.9 
+optimize base frequencies:  -42469.9 --> -42468.2 
+optimize rate matrix:  -42468.2 --> -42464.92 
+optimize shape parameter:  -42464.92 --> -42036.39 
+optimize edge weights:  -42036.39 --> -42026.43 
+optimize topology:  -42026.43 --> -42026.43 
+0 
+optimize base frequencies:  -42026.43 --> -42026.31 
+optimize rate matrix:  -42026.31 --> -42026.26 
+optimize shape parameter:  -42026.26 --> -42026.26 
+optimize edge weights:  -42026.26 --> -42026.26 
+optimize base frequencies:  -42026.26 --> -42026.24 
+optimize rate matrix:  -42026.24 --> -42026.24 
+optimize shape parameter:  -42026.24 --> -42026.24 
+optimize edge weights:  -42026.24 --> -42026.24 
+optimize base frequencies:  -42026.24 --> -42026.24 
+optimize rate matrix:  -42026.24 --> -42026.24 
+optimize shape parameter:  -42026.24 --> -42026.24 
+optimize edge weights:  -42026.24 --> -42026.24 
+optimize base frequencies:  -42026.24 --> -42026.24 
+optimize rate matrix:  -42026.24 --> -42026.24 
+optimize shape parameter:  -42026.24 --> -42026.24 
+optimize edge weights:  -42026.24 --> -42026.24 
+
+ loglikelihood: -42026.24 
+
+unconstrained loglikelihood: -31012.8 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9966 
+
+Rate matrix:
+          a         c        g        t
+a 0.0000000 0.9558494 1.042525 1.012138
+c 0.9558494 0.0000000 1.045274 1.069184
+g 1.0425246 1.0452741 0.000000 1.000000
+t 1.0121382 1.0691842 1.000000 0.000000
+
+Base frequencies:  
+0.2473303 0.245132 0.2538203 0.2537174 
+50 sequences with 5000 character and 2480 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44227.62 --> -44219.69 
+optimize base frequencies:  -44219.69 --> -44219.61 
+optimize rate matrix:  -44219.61 --> -44217.32 
+optimize shape parameter:  -44217.32 --> -43785.79 
+optimize edge weights:  -43785.79 --> -43774.81 
+optimize topology:  -43774.81 --> -43774.81 
+0 
+optimize base frequencies:  -43774.81 --> -43774.12 
+optimize rate matrix:  -43774.12 --> -43773.69 
+optimize shape parameter:  -43773.69 --> -43773.69 
+optimize edge weights:  -43773.69 --> -43773.69 
+optimize base frequencies:  -43773.69 --> -43773.62 
+optimize rate matrix:  -43773.62 --> -43773.61 
+optimize shape parameter:  -43773.61 --> -43773.61 
+optimize edge weights:  -43773.61 --> -43773.61 
+optimize base frequencies:  -43773.61 --> -43773.61 
+optimize rate matrix:  -43773.61 --> -43773.61 
+optimize shape parameter:  -43773.61 --> -43773.61 
+optimize edge weights:  -43773.61 --> -43773.61 
+optimize base frequencies:  -43773.61 --> -43773.61 
+optimize rate matrix:  -43773.61 --> -43773.61 
+optimize shape parameter:  -43773.61 --> -43773.61 
+optimize edge weights:  -43773.61 --> -43773.61 
+
+ loglikelihood: -43773.61 
+
+unconstrained loglikelihood: -31601.12 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9952 
+
+Rate matrix:
+          a         c         g        t
+a 0.0000000 1.0359689 0.9498018 1.082062
+c 1.0359689 0.0000000 0.9902704 1.063044
+g 0.9498018 0.9902704 0.0000000 1.000000
+t 1.0820621 1.0630435 1.0000000 0.000000
+
+Base frequencies:  
+0.2500263 0.2471209 0.2560477 0.2468051 
+50 sequences with 5000 character and 2255 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42906.63 --> -42901.17 
+optimize edge weights:  -42901.17 --> -42901.17 
+optimize topology:  -42901.17 --> -42901.17 
+0 
+optimize edge weights:  -42901.17 --> -42901.17 
+
+ loglikelihood: -42901.17 
+
+unconstrained loglikelihood: -29724.88 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2301 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43959.22 --> -43951.58 
+optimize edge weights:  -43951.58 --> -43951.58 
+optimize topology:  -43951.58 --> -43951.58 
+0 
+optimize edge weights:  -43951.58 --> -43951.58 
+
+ loglikelihood: -43951.58 
+
+unconstrained loglikelihood: -30081.01 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2241 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43060.84 --> -43056.59 
+optimize edge weights:  -43056.59 --> -43056.59 
+optimize topology:  -43056.59 --> -43056.59 
+0 
+optimize edge weights:  -43056.59 --> -43056.59 
+
+ loglikelihood: -43056.59 
+
+unconstrained loglikelihood: -29665.97 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2256 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43250.17 --> -43245.35 
+optimize edge weights:  -43245.35 --> -43245.35 
+optimize topology:  -43245.35 --> -43245.35 
+0 
+optimize edge weights:  -43245.35 --> -43245.35 
+
+ loglikelihood: -43245.35 
+
+unconstrained loglikelihood: -29731.79 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2174 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42133.11 --> -42128.67 
+optimize edge weights:  -42128.67 --> -42128.67 
+optimize topology:  -42128.67 --> -42128.67 
+0 
+optimize edge weights:  -42128.67 --> -42128.67 
+
+ loglikelihood: -42128.67 
+
+unconstrained loglikelihood: -29298.35 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2171 different site patterns.
+The states are a c g t 
+optimize edge weights:  -41996.3 --> -41990.43 
+optimize edge weights:  -41990.43 --> -41990.43 
+optimize topology:  -41990.43 --> -41990.43 
+0 
+optimize edge weights:  -41990.43 --> -41990.43 
+
+ loglikelihood: -41990.43 
+
+unconstrained loglikelihood: -29013.51 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2219 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42613.95 --> -42610.11 
+optimize edge weights:  -42610.11 --> -42610.11 
+optimize topology:  -42610.11 --> -42610.11 
+0 
+optimize edge weights:  -42610.11 --> -42610.11 
+
+ loglikelihood: -42610.11 
+
+unconstrained loglikelihood: -29467.43 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2320 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44066.88 --> -44062.15 
+optimize edge weights:  -44062.15 --> -44062.15 
+optimize topology:  -44062.15 --> -44062.15 
+0 
+optimize edge weights:  -44062.15 --> -44062.15 
+
+ loglikelihood: -44062.15 
+
+unconstrained loglikelihood: -29991.98 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2159 different site patterns.
+The states are a c g t 
+optimize edge weights:  -41748.73 --> -41744.89 
+optimize edge weights:  -41744.89 --> -41744.89 
+optimize topology:  -41744.89 --> -41744.89 
+0 
+optimize edge weights:  -41744.89 --> -41744.89 
+
+ loglikelihood: -41744.89 
+
+unconstrained loglikelihood: -28992.93 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2351 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44726.96 --> -44722.07 
+optimize edge weights:  -44722.07 --> -44722.07 
+optimize topology:  -44722.07 --> -44722.07 
+0 
+optimize edge weights:  -44722.07 --> -44722.07 
+
+ loglikelihood: -44722.07 
+
+unconstrained loglikelihood: -30315.9 
+
+Rate matrix:
+  a c g t
+a 0 1 1 1
+c 1 0 1 1
+g 1 1 0 1
+t 1 1 1 0
+
+Base frequencies:  
+0.25 0.25 0.25 0.25 
+50 sequences with 5000 character and 2241 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43205.38 --> -43199.48 
+optimize base frequencies:  -43199.48 --> -42389.42 
+optimize rate matrix:  -42389.42 --> -40730.43 
+optimize edge weights:  -40730.43 --> -40726.51 
+optimize topology:  -40726.51 --> -40726.51 
+0 
+optimize base frequencies:  -40726.51 --> -40677.85 
+optimize rate matrix:  -40677.85 --> -40672.59 
+optimize edge weights:  -40672.59 --> -40671 
+optimize base frequencies:  -40671 --> -40669.89 
+optimize rate matrix:  -40669.89 --> -40669.76 
+optimize edge weights:  -40669.76 --> -40669.7 
+optimize base frequencies:  -40669.7 --> -40669.65 
+optimize rate matrix:  -40669.65 --> -40669.64 
+optimize edge weights:  -40669.64 --> -40669.64 
+optimize base frequencies:  -40669.64 --> -40669.64 
+optimize rate matrix:  -40669.64 --> -40669.64 
+optimize edge weights:  -40669.64 --> -40669.64 
+optimize base frequencies:  -40669.64 --> -40669.64 
+optimize rate matrix:  -40669.64 --> -40669.64 
+optimize edge weights:  -40669.64 --> -40669.64 
+
+ loglikelihood: -40669.64 
+
+unconstrained loglikelihood: -29511.44 
+
+Rate matrix:
+         a        c        g        t
+a 0.000000 1.424681 5.416736 1.030505
+c 1.424681 0.000000 1.338319 6.149151
+g 5.416736 1.338319 0.000000 1.000000
+t 1.030505 6.149151 1.000000 0.000000
+
+Base frequencies:  
+0.0981333 0.1978188 0.4027428 0.3013051 
+50 sequences with 5000 character and 2194 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42564.42 --> -42559.33 
+optimize base frequencies:  -42559.33 --> -41712.26 
+optimize rate matrix:  -41712.26 --> -40279.97 
+optimize edge weights:  -40279.97 --> -40276.2 
+optimize topology:  -40276.2 --> -40276.2 
+0 
+optimize base frequencies:  -40276.2 --> -40232.42 
+optimize rate matrix:  -40232.42 --> -40226.85 
+optimize edge weights:  -40226.85 --> -40225.56 
+optimize base frequencies:  -40225.56 --> -40224.33 
+optimize rate matrix:  -40224.33 --> -40224.12 
+optimize edge weights:  -40224.12 --> -40224.06 
+optimize base frequencies:  -40224.06 --> -40223.99 
+optimize rate matrix:  -40223.99 --> -40223.97 
+optimize edge weights:  -40223.97 --> -40223.97 
+optimize base frequencies:  -40223.97 --> -40223.96 
+optimize rate matrix:  -40223.96 --> -40223.96 
+optimize edge weights:  -40223.96 --> -40223.96 
+optimize base frequencies:  -40223.96 --> -40223.96 
+optimize rate matrix:  -40223.96 --> -40223.96 
+optimize edge weights:  -40223.96 --> -40223.96 
+optimize base frequencies:  -40223.96 --> -40223.96 
+optimize rate matrix:  -40223.96 --> -40223.96 
+optimize edge weights:  -40223.96 --> -40223.96 
+
+ loglikelihood: -40223.96 
+
+unconstrained loglikelihood: -29502.73 
+
+Rate matrix:
+         a        c        g        t
+a 0.000000 1.213064 4.443540 1.014823
+c 1.213064 0.000000 1.165459 5.301884
+g 4.443540 1.165459 0.000000 1.000000
+t 1.014823 5.301884 1.000000 0.000000
+
+Base frequencies:  
+0.09655617 0.2035516 0.4009129 0.2989794 
+50 sequences with 5000 character and 2144 different site patterns.
+The states are a c g t 
+optimize edge weights:  -41858.11 --> -41852.43 
+optimize base frequencies:  -41852.43 --> -40994.01 
+optimize rate matrix:  -40994.01 --> -39504.87 
+optimize edge weights:  -39504.87 --> -39501.95 
+optimize topology:  -39501.95 --> -39501.95 
+0 
+optimize base frequencies:  -39501.95 --> -39457.46 
+optimize rate matrix:  -39457.46 --> -39452.26 
+optimize edge weights:  -39452.26 --> -39450.72 
+optimize base frequencies:  -39450.72 --> -39449.57 
+optimize rate matrix:  -39449.57 --> -39449.4 
+optimize edge weights:  -39449.4 --> -39449.35 
+optimize base frequencies:  -39449.35 --> -39449.29 
+optimize rate matrix:  -39449.29 --> -39449.27 
+optimize edge weights:  -39449.27 --> -39449.27 
+optimize base frequencies:  -39449.27 --> -39449.26 
+optimize rate matrix:  -39449.26 --> -39449.26 
+optimize edge weights:  -39449.26 --> -39449.26 
+optimize base frequencies:  -39449.26 --> -39449.26 
+optimize rate matrix:  -39449.26 --> -39449.26 
+optimize edge weights:  -39449.26 --> -39449.26 
+optimize base frequencies:  -39449.26 --> -39449.26 
+optimize rate matrix:  -39449.26 --> -39449.26 
+optimize edge weights:  -39449.26 --> -39449.26 
+
+ loglikelihood: -39449.26 
+
+unconstrained loglikelihood: -29054.99 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.495203 4.856132 0.8608462
+c 1.4952028 0.000000 1.147840 5.4008791
+g 4.8561317 1.147840 0.000000 1.0000000
+t 0.8608462 5.400879 1.000000 0.0000000
+
+Base frequencies:  
+0.0936519 0.2006583 0.40246 0.3032298 
+50 sequences with 5000 character and 2335 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44206.36 --> -44201.11 
+optimize base frequencies:  -44201.11 --> -43331.25 
+optimize rate matrix:  -43331.25 --> -41739.43 
+optimize edge weights:  -41739.43 --> -41736.05 
+optimize topology:  -41736.05 --> -41736.05 
+0 
+optimize base frequencies:  -41736.05 --> -41690.62 
+optimize rate matrix:  -41690.62 --> -41684.92 
+optimize edge weights:  -41684.92 --> -41683.65 
+optimize base frequencies:  -41683.65 --> -41682.36 
+optimize rate matrix:  -41682.36 --> -41682.15 
+optimize edge weights:  -41682.15 --> -41682.09 
+optimize base frequencies:  -41682.09 --> -41682.02 
+optimize rate matrix:  -41682.02 --> -41681.99 
+optimize edge weights:  -41681.99 --> -41681.99 
+optimize base frequencies:  -41681.99 --> -41681.98 
+optimize rate matrix:  -41681.98 --> -41681.97 
+optimize edge weights:  -41681.97 --> -41681.97 
+optimize base frequencies:  -41681.97 --> -41681.97 
+optimize rate matrix:  -41681.97 --> -41681.97 
+optimize edge weights:  -41681.97 --> -41681.97 
+optimize base frequencies:  -41681.97 --> -41681.97 
+optimize rate matrix:  -41681.97 --> -41681.97 
+optimize edge weights:  -41681.97 --> -41681.97 
+
+ loglikelihood: -41681.97 
+
+unconstrained loglikelihood: -30250.18 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.161791 4.678955 0.7925151
+c 1.1617910 0.000000 1.141619 5.1758670
+g 4.6789550 1.141619 0.000000 1.0000000
+t 0.7925151 5.175867 1.000000 0.0000000
+
+Base frequencies:  
+0.09678016 0.2024106 0.3951417 0.3056675 
+50 sequences with 5000 character and 2236 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43233.16 --> -43228.71 
+optimize base frequencies:  -43228.71 --> -42427.64 
+optimize rate matrix:  -42427.64 --> -40851.69 
+optimize edge weights:  -40851.69 --> -40847.57 
+optimize topology:  -40847.57 --> -40847.57 
+0 
+optimize base frequencies:  -40847.57 --> -40802.2 
+optimize rate matrix:  -40802.2 --> -40796.58 
+optimize edge weights:  -40796.58 --> -40795.21 
+optimize base frequencies:  -40795.21 --> -40794 
+optimize rate matrix:  -40794 --> -40793.82 
+optimize edge weights:  -40793.82 --> -40793.76 
+optimize base frequencies:  -40793.76 --> -40793.69 
+optimize rate matrix:  -40793.69 --> -40793.67 
+optimize edge weights:  -40793.67 --> -40793.67 
+optimize base frequencies:  -40793.67 --> -40793.66 
+optimize rate matrix:  -40793.66 --> -40793.65 
+optimize edge weights:  -40793.65 --> -40793.65 
+optimize base frequencies:  -40793.65 --> -40793.65 
+optimize rate matrix:  -40793.65 --> -40793.65 
+optimize edge weights:  -40793.65 --> -40793.65 
+optimize base frequencies:  -40793.65 --> -40793.65 
+optimize rate matrix:  -40793.65 --> -40793.65 
+optimize edge weights:  -40793.65 --> -40793.65 
+optimize base frequencies:  -40793.65 --> -40793.65 
+optimize rate matrix:  -40793.65 --> -40793.65 
+optimize edge weights:  -40793.65 --> -40793.65 
+
+ loglikelihood: -40793.65 
+
+unconstrained loglikelihood: -29719.19 
+
+Rate matrix:
+         a        c        g        t
+a 0.000000 1.365864 4.656693 0.899284
+c 1.365864 0.000000 1.192231 5.693194
+g 4.656693 1.192231 0.000000 1.000000
+t 0.899284 5.693194 1.000000 0.000000
+
+Base frequencies:  
+0.1025394 0.1938064 0.4076411 0.2960132 
+50 sequences with 5000 character and 2206 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42943.36 --> -42937.09 
+optimize base frequencies:  -42937.09 --> -42069.05 
+optimize rate matrix:  -42069.05 --> -40582.96 
+optimize edge weights:  -40582.96 --> -40579.69 
+optimize topology:  -40579.69 --> -40579.69 
+0 
+optimize base frequencies:  -40579.69 --> -40534.6 
+optimize rate matrix:  -40534.6 --> -40529.54 
+optimize edge weights:  -40529.54 --> -40528.09 
+optimize base frequencies:  -40528.09 --> -40527.04 
+optimize rate matrix:  -40527.04 --> -40526.93 
+optimize edge weights:  -40526.93 --> -40526.87 
+optimize base frequencies:  -40526.87 --> -40526.83 
+optimize rate matrix:  -40526.83 --> -40526.83 
+optimize edge weights:  -40526.83 --> -40526.82 
+optimize base frequencies:  -40526.82 --> -40526.82 
+optimize rate matrix:  -40526.82 --> -40526.82 
+optimize edge weights:  -40526.82 --> -40526.82 
+optimize base frequencies:  -40526.82 --> -40526.82 
+optimize rate matrix:  -40526.82 --> -40526.82 
+optimize edge weights:  -40526.82 --> -40526.82 
+optimize base frequencies:  -40526.82 --> -40526.82 
+optimize rate matrix:  -40526.82 --> -40526.82 
+optimize edge weights:  -40526.82 --> -40526.82 
+
+ loglikelihood: -40526.82 
+
+unconstrained loglikelihood: -29297.68 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.475824 4.957066 0.8793743
+c 1.4758238 0.000000 1.235936 5.3185120
+g 4.9570662 1.235936 0.000000 1.0000000
+t 0.8793743 5.318512 1.000000 0.0000000
+
+Base frequencies:  
+0.09322123 0.2022833 0.4030877 0.3014079 
+50 sequences with 5000 character and 2242 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42818.61 --> -42812.75 
+optimize base frequencies:  -42812.75 --> -42018.85 
+optimize rate matrix:  -42018.85 --> -40469.82 
+optimize edge weights:  -40469.82 --> -40465.81 
+optimize topology:  -40465.81 --> -40465.81 
+0 
+optimize base frequencies:  -40465.81 --> -40418.71 
+optimize rate matrix:  -40418.71 --> -40412.86 
+optimize edge weights:  -40412.86 --> -40411.51 
+optimize base frequencies:  -40411.51 --> -40410.13 
+optimize rate matrix:  -40410.13 --> -40409.9 
+optimize edge weights:  -40409.9 --> -40409.83 
+optimize base frequencies:  -40409.83 --> -40409.75 
+optimize rate matrix:  -40409.75 --> -40409.72 
+optimize edge weights:  -40409.72 --> -40409.72 
+optimize base frequencies:  -40409.72 --> -40409.71 
+optimize rate matrix:  -40409.71 --> -40409.7 
+optimize edge weights:  -40409.7 --> -40409.7 
+optimize base frequencies:  -40409.7 --> -40409.7 
+optimize rate matrix:  -40409.7 --> -40409.7 
+optimize edge weights:  -40409.7 --> -40409.7 
+optimize base frequencies:  -40409.7 --> -40409.7 
+optimize rate matrix:  -40409.7 --> -40409.7 
+optimize edge weights:  -40409.7 --> -40409.7 
+
+ loglikelihood: -40409.7 
+
+unconstrained loglikelihood: -29583.42 
+
+Rate matrix:
+         a        c        g        t
+a 0.000000 1.383227 4.929252 1.010098
+c 1.383227 0.000000 1.365396 5.982772
+g 4.929252 1.365396 0.000000 1.000000
+t 1.010098 5.982772 1.000000 0.000000
+
+Base frequencies:  
+0.1009916 0.1999299 0.3976653 0.3014132 
+50 sequences with 5000 character and 2234 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42865.06 --> -42860.86 
+optimize base frequencies:  -42860.86 --> -42045.85 
+optimize rate matrix:  -42045.85 --> -40515.79 
+optimize edge weights:  -40515.79 --> -40512.78 
+optimize topology:  -40512.78 --> -40512.78 
+0 
+optimize base frequencies:  -40512.78 --> -40473.9 
+optimize rate matrix:  -40473.9 --> -40469.17 
+optimize edge weights:  -40469.17 --> -40468.01 
+optimize base frequencies:  -40468.01 --> -40466.94 
+optimize rate matrix:  -40466.94 --> -40466.75 
+optimize edge weights:  -40466.75 --> -40466.71 
+optimize base frequencies:  -40466.71 --> -40466.64 
+optimize rate matrix:  -40466.64 --> -40466.61 
+optimize edge weights:  -40466.61 --> -40466.61 
+optimize base frequencies:  -40466.61 --> -40466.61 
+optimize rate matrix:  -40466.61 --> -40466.6 
+optimize edge weights:  -40466.6 --> -40466.6 
+optimize base frequencies:  -40466.6 --> -40466.6 
+optimize rate matrix:  -40466.6 --> -40466.6 
+optimize edge weights:  -40466.6 --> -40466.6 
+optimize base frequencies:  -40466.6 --> -40466.6 
+optimize rate matrix:  -40466.6 --> -40466.6 
+optimize edge weights:  -40466.6 --> -40466.6 
+
+ loglikelihood: -40466.6 
+
+unconstrained loglikelihood: -29652.85 
+
+Rate matrix:
+        a        c        g       t
+a 0.00000 1.275080 4.515360 0.72335
+c 1.27508 0.000000 1.198803 5.36431
+g 4.51536 1.198803 0.000000 1.00000
+t 0.72335 5.364310 1.000000 0.00000
+
+Base frequencies:  
+0.1021971 0.1988487 0.4043894 0.2945647 
+50 sequences with 5000 character and 2289 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43991.97 --> -43986.59 
+optimize base frequencies:  -43986.59 --> -43168.35 
+optimize rate matrix:  -43168.35 --> -41638.87 
+optimize edge weights:  -41638.87 --> -41635.47 
+optimize topology:  -41635.47 --> -41635.47 
+0 
+optimize base frequencies:  -41635.47 --> -41589.72 
+optimize rate matrix:  -41589.72 --> -41584.39 
+optimize edge weights:  -41584.39 --> -41583.03 
+optimize base frequencies:  -41583.03 --> -41581.96 
+optimize rate matrix:  -41581.96 --> -41581.81 
+optimize edge weights:  -41581.81 --> -41581.76 
+optimize base frequencies:  -41581.76 --> -41581.71 
+optimize rate matrix:  -41581.71 --> -41581.7 
+optimize edge weights:  -41581.7 --> -41581.7 
+optimize base frequencies:  -41581.7 --> -41581.7 
+optimize rate matrix:  -41581.7 --> -41581.7 
+optimize edge weights:  -41581.7 --> -41581.7 
+optimize base frequencies:  -41581.7 --> -41581.7 
+optimize rate matrix:  -41581.7 --> -41581.7 
+optimize edge weights:  -41581.7 --> -41581.7 
+optimize base frequencies:  -41581.7 --> -41581.7 
+optimize rate matrix:  -41581.7 --> -41581.7 
+optimize edge weights:  -41581.7 --> -41581.7 
+
+ loglikelihood: -41581.7 
+
+unconstrained loglikelihood: -29915.42 
+
+Rate matrix:
+         a        c        g        t
+a 0.000000 1.388743 4.852011 0.947982
+c 1.388743 0.000000 1.209569 5.308582
+g 4.852011 1.209569 0.000000 1.000000
+t 0.947982 5.308582 1.000000 0.000000
+
+Base frequencies:  
+0.09762704 0.2052435 0.3954376 0.3016919 
+50 sequences with 5000 character and 2217 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43118.39 --> -43113.54 
+optimize base frequencies:  -43113.54 --> -42267.11 
+optimize rate matrix:  -42267.11 --> -40734.43 
+optimize edge weights:  -40734.43 --> -40729.74 
+optimize topology:  -40729.74 --> -40729.74 
+0 
+optimize base frequencies:  -40729.74 --> -40681.19 
+optimize rate matrix:  -40681.19 --> -40674.96 
+optimize edge weights:  -40674.96 --> -40673.44 
+optimize base frequencies:  -40673.44 --> -40672 
+optimize rate matrix:  -40672 --> -40671.77 
+optimize edge weights:  -40671.77 --> -40671.7 
+optimize base frequencies:  -40671.7 --> -40671.62 
+optimize rate matrix:  -40671.62 --> -40671.59 
+optimize edge weights:  -40671.59 --> -40671.59 
+optimize base frequencies:  -40671.59 --> -40671.58 
+optimize rate matrix:  -40671.58 --> -40671.58 
+optimize edge weights:  -40671.58 --> -40671.58 
+optimize base frequencies:  -40671.58 --> -40671.58 
+optimize rate matrix:  -40671.58 --> -40671.58 
+optimize edge weights:  -40671.58 --> -40671.58 
+optimize base frequencies:  -40671.58 --> -40671.58 
+optimize rate matrix:  -40671.58 --> -40671.58 
+optimize edge weights:  -40671.58 --> -40671.58 
+optimize base frequencies:  -40671.58 --> -40671.58 
+optimize rate matrix:  -40671.58 --> -40671.58 
+optimize edge weights:  -40671.58 --> -40671.58 
+
+ loglikelihood: -40671.58 
+
+unconstrained loglikelihood: -29446.55 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.495320 4.677258 0.9253746
+c 1.4953199 0.000000 1.196883 5.6403839
+g 4.6772579 1.196883 0.000000 1.0000000
+t 0.9253746 5.640384 1.000000 0.0000000
+
+Base frequencies:  
+0.09624815 0.199409 0.3972803 0.3070626 
+50 sequences with 5000 character and 2177 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43131.43 --> -43124.44 
+optimize base frequencies:  -43124.44 --> -42354.01 
+optimize rate matrix:  -42354.01 --> -40933.52 
+optimize shape parameter:  -40933.52 --> -40562.32 
+optimize edge weights:  -40562.32 --> -40543.28 
+optimize topology:  -40543.28 --> -40543.28 
+0 
+optimize base frequencies:  -40543.28 --> -40485.23 
+optimize rate matrix:  -40485.23 --> -40470.58 
+optimize shape parameter:  -40470.58 --> -40470.25 
+optimize edge weights:  -40470.25 --> -40469.08 
+optimize base frequencies:  -40469.08 --> -40466.62 
+optimize rate matrix:  -40466.62 --> -40466.26 
+optimize shape parameter:  -40466.26 --> -40466.26 
+optimize edge weights:  -40466.26 --> -40466.15 
+optimize base frequencies:  -40466.15 --> -40466.03 
+optimize rate matrix:  -40466.03 --> -40466 
+optimize shape parameter:  -40466 --> -40466 
+optimize edge weights:  -40466 --> -40466 
+optimize base frequencies:  -40466 --> -40465.98 
+optimize rate matrix:  -40465.98 --> -40465.98 
+optimize shape parameter:  -40465.98 --> -40465.98 
+optimize edge weights:  -40465.98 --> -40465.98 
+optimize base frequencies:  -40465.98 --> -40465.98 
+optimize rate matrix:  -40465.98 --> -40465.98 
+optimize shape parameter:  -40465.98 --> -40465.98 
+optimize edge weights:  -40465.98 --> -40465.98 
+
+ loglikelihood: -40465.98 
+
+unconstrained loglikelihood: -29479.83 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 63.39563 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.216925 4.746841 0.9532403
+c 1.2169253 0.000000 1.203481 5.3686029
+g 4.7468415 1.203481 0.000000 1.0000000
+t 0.9532403 5.368603 1.000000 0.0000000
+
+Base frequencies:  
+0.0973349 0.2022585 0.3964807 0.3039259 
+50 sequences with 5000 character and 2179 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42297.24 --> -42286.9 
+optimize base frequencies:  -42286.9 --> -41502.11 
+optimize rate matrix:  -41502.11 --> -40066.71 
+optimize shape parameter:  -40066.71 --> -39698.54 
+optimize edge weights:  -39698.54 --> -39676.85 
+optimize topology:  -39676.85 --> -39676.85 
+0 
+optimize base frequencies:  -39676.85 --> -39608.77 
+optimize rate matrix:  -39608.77 --> -39589.53 
+optimize shape parameter:  -39589.53 --> -39589.09 
+optimize edge weights:  -39589.09 --> -39587.68 
+optimize base frequencies:  -39587.68 --> -39583.94 
+optimize rate matrix:  -39583.94 --> -39583.22 
+optimize shape parameter:  -39583.22 --> -39583.22 
+optimize edge weights:  -39583.22 --> -39583.06 
+optimize base frequencies:  -39583.06 --> -39582.78 
+optimize rate matrix:  -39582.78 --> -39582.7 
+optimize shape parameter:  -39582.7 --> -39582.7 
+optimize edge weights:  -39582.7 --> -39582.69 
+optimize base frequencies:  -39582.69 --> -39582.66 
+optimize rate matrix:  -39582.66 --> -39582.65 
+optimize shape parameter:  -39582.65 --> -39582.65 
+optimize edge weights:  -39582.65 --> -39582.65 
+optimize base frequencies:  -39582.65 --> -39582.64 
+optimize rate matrix:  -39582.64 --> -39582.64 
+optimize shape parameter:  -39582.64 --> -39582.64 
+optimize edge weights:  -39582.64 --> -39582.64 
+optimize base frequencies:  -39582.64 --> -39582.64 
+optimize rate matrix:  -39582.64 --> -39582.64 
+optimize shape parameter:  -39582.64 --> -39582.64 
+optimize edge weights:  -39582.64 --> -39582.64 
+optimize base frequencies:  -39582.64 --> -39582.64 
+optimize rate matrix:  -39582.64 --> -39582.64 
+optimize shape parameter:  -39582.64 --> -39582.64 
+optimize edge weights:  -39582.64 --> -39582.64 
+
+ loglikelihood: -39582.64 
+
+unconstrained loglikelihood: -29153.69 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9947 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.450616 4.860625 0.9007233
+c 1.4506164 0.000000 1.300439 5.9663979
+g 4.8606253 1.300439 0.000000 1.0000000
+t 0.9007233 5.966398 1.000000 0.0000000
+
+Base frequencies:  
+0.0971757 0.1981745 0.3943203 0.3103295 
+50 sequences with 5000 character and 2140 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42132.29 --> -42124.88 
+optimize base frequencies:  -42124.88 --> -41407.11 
+optimize rate matrix:  -41407.11 --> -40075.82 
+optimize shape parameter:  -40075.82 --> -39708.9 
+optimize edge weights:  -39708.9 --> -39690.32 
+optimize topology:  -39690.32 --> -39690.32 
+0 
+optimize base frequencies:  -39690.32 --> -39639.73 
+optimize rate matrix:  -39639.73 --> -39627.27 
+optimize shape parameter:  -39627.27 --> -39627.1 
+optimize edge weights:  -39627.1 --> -39626.22 
+optimize base frequencies:  -39626.22 --> -39624.12 
+optimize rate matrix:  -39624.12 --> -39623.77 
+optimize shape parameter:  -39623.77 --> -39623.77 
+optimize edge weights:  -39623.77 --> -39623.7 
+optimize base frequencies:  -39623.7 --> -39623.58 
+optimize rate matrix:  -39623.58 --> -39623.55 
+optimize shape parameter:  -39623.55 --> -39623.55 
+optimize edge weights:  -39623.55 --> -39623.55 
+optimize base frequencies:  -39623.55 --> -39623.54 
+optimize rate matrix:  -39623.54 --> -39623.53 
+optimize shape parameter:  -39623.53 --> -39623.53 
+optimize edge weights:  -39623.53 --> -39623.53 
+optimize base frequencies:  -39623.53 --> -39623.53 
+optimize rate matrix:  -39623.53 --> -39623.53 
+optimize shape parameter:  -39623.53 --> -39623.53 
+optimize edge weights:  -39623.53 --> -39623.53 
+optimize base frequencies:  -39623.53 --> -39623.53 
+optimize rate matrix:  -39623.53 --> -39623.53 
+optimize shape parameter:  -39623.53 --> -39623.53 
+optimize edge weights:  -39623.53 --> -39623.53 
+
+ loglikelihood: -39623.53 
+
+unconstrained loglikelihood: -29200.03 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9955 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.246355 4.505516 0.8508406
+c 1.2463547 0.000000 1.104826 4.9641687
+g 4.5055161 1.104826 0.000000 1.0000000
+t 0.8508406 4.964169 1.000000 0.0000000
+
+Base frequencies:  
+0.1004737 0.2095682 0.3935844 0.2963737 
+50 sequences with 5000 character and 2282 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44515.41 --> -44504.98 
+optimize base frequencies:  -44504.98 --> -43740.85 
+optimize rate matrix:  -43740.85 --> -42227.12 
+optimize shape parameter:  -42227.12 --> -41776.16 
+optimize edge weights:  -41776.16 --> -41753.41 
+optimize topology:  -41753.41 --> -41753.41 
+0 
+optimize base frequencies:  -41753.41 --> -41691.33 
+optimize rate matrix:  -41691.33 --> -41674.5 
+optimize shape parameter:  -41674.5 --> -41674.5 
+optimize edge weights:  -41674.5 --> -41673.17 
+optimize base frequencies:  -41673.17 --> -41670.29 
+optimize rate matrix:  -41670.29 --> -41669.87 
+optimize shape parameter:  -41669.87 --> -41669.87 
+optimize edge weights:  -41669.87 --> -41669.74 
+optimize base frequencies:  -41669.74 --> -41669.57 
+optimize rate matrix:  -41669.57 --> -41669.53 
+optimize shape parameter:  -41669.53 --> -41669.53 
+optimize edge weights:  -41669.53 --> -41669.53 
+optimize base frequencies:  -41669.53 --> -41669.51 
+optimize rate matrix:  -41669.51 --> -41669.5 
+optimize shape parameter:  -41669.5 --> -41669.5 
+optimize edge weights:  -41669.5 --> -41669.5 
+optimize base frequencies:  -41669.5 --> -41669.5 
+optimize rate matrix:  -41669.5 --> -41669.5 
+optimize shape parameter:  -41669.5 --> -41669.5 
+optimize edge weights:  -41669.5 --> -41669.5 
+optimize base frequencies:  -41669.5 --> -41669.5 
+optimize rate matrix:  -41669.5 --> -41669.5 
+optimize shape parameter:  -41669.5 --> -41669.5 
+optimize edge weights:  -41669.5 --> -41669.5 
+optimize base frequencies:  -41669.5 --> -41669.49 
+optimize rate matrix:  -41669.49 --> -41669.49 
+optimize shape parameter:  -41669.49 --> -41669.49 
+optimize edge weights:  -41669.49 --> -41669.49 
+
+ loglikelihood: -41669.49 
+
+unconstrained loglikelihood: -30264.66 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9963 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.251824 4.780121 0.9371036
+c 1.2518243 0.000000 1.150136 5.3796675
+g 4.7801209 1.150136 0.000000 1.0000000
+t 0.9371036 5.379668 1.000000 0.0000000
+
+Base frequencies:  
+0.09886703 0.1997921 0.3979785 0.3033624 
+50 sequences with 5000 character and 2293 different site patterns.
+The states are a c g t 
+optimize edge weights:  -44363.86 --> -44356.34 
+optimize base frequencies:  -44356.34 --> -43599.82 
+optimize rate matrix:  -43599.82 --> -42156.04 
+optimize shape parameter:  -42156.04 --> -41754.42 
+optimize edge weights:  -41754.42 --> -41731.76 
+optimize topology:  -41731.76 --> -41731.76 
+0 
+optimize base frequencies:  -41731.76 --> -41671.35 
+optimize rate matrix:  -41671.35 --> -41653.62 
+optimize shape parameter:  -41653.62 --> -41653.08 
+optimize edge weights:  -41653.08 --> -41651.83 
+optimize base frequencies:  -41651.83 --> -41648.55 
+optimize rate matrix:  -41648.55 --> -41647.92 
+optimize shape parameter:  -41647.92 --> -41647.92 
+optimize edge weights:  -41647.92 --> -41647.78 
+optimize base frequencies:  -41647.78 --> -41647.57 
+optimize rate matrix:  -41647.57 --> -41647.5 
+optimize shape parameter:  -41647.5 --> -41647.5 
+optimize edge weights:  -41647.5 --> -41647.5 
+optimize base frequencies:  -41647.5 --> -41647.47 
+optimize rate matrix:  -41647.47 --> -41647.46 
+optimize shape parameter:  -41647.46 --> -41647.46 
+optimize edge weights:  -41647.46 --> -41647.46 
+optimize base frequencies:  -41647.46 --> -41647.46 
+optimize rate matrix:  -41647.46 --> -41647.46 
+optimize shape parameter:  -41647.46 --> -41647.46 
+optimize edge weights:  -41647.46 --> -41647.46 
+optimize base frequencies:  -41647.46 --> -41647.46 
+optimize rate matrix:  -41647.46 --> -41647.46 
+optimize shape parameter:  -41647.46 --> -41647.46 
+optimize edge weights:  -41647.46 --> -41647.46 
+optimize base frequencies:  -41647.46 --> -41647.46 
+optimize rate matrix:  -41647.46 --> -41647.46 
+optimize shape parameter:  -41647.46 --> -41647.46 
+optimize edge weights:  -41647.46 --> -41647.46 
+optimize base frequencies:  -41647.46 --> -41647.46 
+optimize rate matrix:  -41647.46 --> -41647.46 
+optimize shape parameter:  -41647.46 --> -41647.46 
+optimize edge weights:  -41647.46 --> -41647.46 
+
+ loglikelihood: -41647.46 
+
+unconstrained loglikelihood: -30100.43 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9944 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.208359 4.479738 0.9861906
+c 1.2083588 0.000000 1.195581 5.4516909
+g 4.4797383 1.195581 0.000000 1.0000000
+t 0.9861906 5.451691 1.000000 0.0000000
+
+Base frequencies:  
+0.1011155 0.2050102 0.3911109 0.3027635 
+50 sequences with 5000 character and 2194 different site patterns.
+The states are a c g t 
+optimize edge weights:  -42920.66 --> -42911.72 
+optimize base frequencies:  -42911.72 --> -42157.5 
+optimize rate matrix:  -42157.5 --> -40771.42 
+optimize shape parameter:  -40771.42 --> -40406.76 
+optimize edge weights:  -40406.76 --> -40386.99 
+optimize topology:  -40386.99 --> -40386.99 
+0 
+optimize base frequencies:  -40386.99 --> -40319.29 
+optimize rate matrix:  -40319.29 --> -40300.43 
+optimize shape parameter:  -40300.43 --> -40299.92 
+optimize edge weights:  -40299.92 --> -40298.34 
+optimize base frequencies:  -40298.34 --> -40294.68 
+optimize rate matrix:  -40294.68 --> -40293.96 
+optimize shape parameter:  -40293.96 --> -40293.96 
+optimize edge weights:  -40293.96 --> -40293.79 
+optimize base frequencies:  -40293.79 --> -40293.55 
+optimize rate matrix:  -40293.55 --> -40293.48 
+optimize shape parameter:  -40293.48 --> -40293.48 
+optimize edge weights:  -40293.48 --> -40293.47 
+optimize base frequencies:  -40293.47 --> -40293.45 
+optimize rate matrix:  -40293.45 --> -40293.43 
+optimize shape parameter:  -40293.43 --> -40293.43 
+optimize edge weights:  -40293.43 --> -40293.43 
+optimize base frequencies:  -40293.43 --> -40293.43 
+optimize rate matrix:  -40293.43 --> -40293.43 
+optimize shape parameter:  -40293.43 --> -40293.43 
+optimize edge weights:  -40293.43 --> -40293.43 
+optimize base frequencies:  -40293.43 --> -40293.43 
+optimize rate matrix:  -40293.43 --> -40293.43 
+optimize shape parameter:  -40293.43 --> -40293.43 
+optimize edge weights:  -40293.43 --> -40293.43 
+optimize base frequencies:  -40293.43 --> -40293.43 
+optimize rate matrix:  -40293.43 --> -40293.43 
+optimize shape parameter:  -40293.43 --> -40293.43 
+optimize edge weights:  -40293.43 --> -40293.43 
+
+ loglikelihood: -40293.43 
+
+unconstrained loglikelihood: -29352.06 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 234.5745 
+
+Rate matrix:
+         a        c        g        t
+a 0.000000 1.595862 4.937476 1.037995
+c 1.595862 0.000000 1.385304 5.981367
+g 4.937476 1.385304 0.000000 1.000000
+t 1.037995 5.981367 1.000000 0.000000
+
+Base frequencies:  
+0.09871449 0.2009511 0.3991773 0.3011572 
+50 sequences with 5000 character and 2194 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43014.57 --> -43006.35 
+optimize base frequencies:  -43006.35 --> -42263.48 
+optimize rate matrix:  -42263.48 --> -40829.41 
+optimize shape parameter:  -40829.41 --> -40437.57 
+optimize edge weights:  -40437.57 --> -40419.4 
+optimize topology:  -40419.4 --> -40419.4 
+0 
+optimize base frequencies:  -40419.4 --> -40363.77 
+optimize rate matrix:  -40363.77 --> -40349.33 
+optimize shape parameter:  -40349.33 --> -40348.99 
+optimize edge weights:  -40348.99 --> -40347.72 
+optimize base frequencies:  -40347.72 --> -40345.52 
+optimize rate matrix:  -40345.52 --> -40345.21 
+optimize shape parameter:  -40345.21 --> -40345.21 
+optimize edge weights:  -40345.21 --> -40345.11 
+optimize base frequencies:  -40345.11 --> -40345.02 
+optimize rate matrix:  -40345.02 --> -40344.99 
+optimize shape parameter:  -40344.99 --> -40344.99 
+optimize edge weights:  -40344.99 --> -40344.99 
+optimize base frequencies:  -40344.99 --> -40344.98 
+optimize rate matrix:  -40344.98 --> -40344.98 
+optimize shape parameter:  -40344.98 --> -40344.98 
+optimize edge weights:  -40344.98 --> -40344.98 
+optimize base frequencies:  -40344.98 --> -40344.97 
+optimize rate matrix:  -40344.97 --> -40344.97 
+optimize shape parameter:  -40344.97 --> -40344.97 
+optimize edge weights:  -40344.97 --> -40344.97 
+optimize base frequencies:  -40344.97 --> -40344.97 
+optimize rate matrix:  -40344.97 --> -40344.97 
+optimize shape parameter:  -40344.97 --> -40344.97 
+optimize edge weights:  -40344.97 --> -40344.97 
+
+ loglikelihood: -40344.97 
+
+unconstrained loglikelihood: -29547.95 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9953 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.304507 5.118339 0.9259477
+c 1.3045067 0.000000 1.363900 5.5782055
+g 5.1183387 1.363900 0.000000 1.0000000
+t 0.9259477 5.578205 1.000000 0.0000000
+
+Base frequencies:  
+0.0990001 0.2035141 0.3975464 0.2999395 
+50 sequences with 5000 character and 2242 different site patterns.
+The states are a c g t 
+optimize edge weights:  -43814.56 --> -43805.42 
+optimize base frequencies:  -43805.42 --> -43078.46 
+optimize rate matrix:  -43078.46 --> -41670.41 
+optimize shape parameter:  -41670.41 --> -41302.04 
+optimize edge weights:  -41302.04 --> -41282.87 
+optimize topology:  -41282.87 --> -41282.87 
+0 
+optimize base frequencies:  -41282.87 --> -41225.85 
+optimize rate matrix:  -41225.85 --> -41211.87 
+optimize shape parameter:  -41211.87 --> -41211.57 
+optimize edge weights:  -41211.57 --> -41210.51 
+optimize base frequencies:  -41210.51 --> -41208.19 
+optimize rate matrix:  -41208.19 --> -41207.87 
+optimize shape parameter:  -41207.87 --> -41207.86 
+optimize edge weights:  -41207.86 --> -41207.77 
+optimize base frequencies:  -41207.77 --> -41207.67 
+optimize rate matrix:  -41207.67 --> -41207.65 
+optimize shape parameter:  -41207.65 --> -41207.65 
+optimize edge weights:  -41207.65 --> -41207.65 
+optimize base frequencies:  -41207.65 --> -41207.64 
+optimize rate matrix:  -41207.64 --> -41207.63 
+optimize shape parameter:  -41207.63 --> -41207.63 
+optimize edge weights:  -41207.63 --> -41207.63 
+optimize base frequencies:  -41207.63 --> -41207.63 
+optimize rate matrix:  -41207.63 --> -41207.63 
+optimize shape parameter:  -41207.63 --> -41207.63 
+optimize edge weights:  -41207.63 --> -41207.63 
+optimize base frequencies:  -41207.63 --> -41207.63 
+optimize rate matrix:  -41207.63 --> -41207.63 
+optimize shape parameter:  -41207.63 --> -41207.63 
+optimize edge weights:  -41207.63 --> -41207.63 
+optimize base frequencies:  -41207.63 --> -41207.63 
+optimize rate matrix:  -41207.63 --> -41207.63 
+optimize shape parameter:  -41207.63 --> -41207.63 
+optimize edge weights:  -41207.63 --> -41207.63 
+
+ loglikelihood: -41207.63 
+
+unconstrained loglikelihood: -29903.41 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 34.19221 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.390612 4.787340 0.9119787
+c 1.3906118 0.000000 1.250189 5.2772044
+g 4.7873400 1.250189 0.000000 1.0000000
+t 0.9119787 5.277204 1.000000 0.0000000
+
+Base frequencies:  
+0.1009599 0.2026004 0.3863652 0.3100744 
+50 sequences with 5000 character and 2043 different site patterns.
+The states are a c g t 
+optimize edge weights:  -40712.99 --> -40705.49 
+optimize base frequencies:  -40705.49 --> -39986.43 
+optimize rate matrix:  -39986.43 --> -38651.9 
+optimize shape parameter:  -38651.9 --> -38300.02 
+optimize edge weights:  -38300.02 --> -38285.11 
+optimize topology:  -38285.11 --> -38285.11 
+0 
+optimize base frequencies:  -38285.11 --> -38242.96 
+optimize rate matrix:  -38242.96 --> -38232.7 
+optimize shape parameter:  -38232.7 --> -38232.7 
+optimize edge weights:  -38232.7 --> -38231.88 
+optimize base frequencies:  -38231.88 --> -38230.31 
+optimize rate matrix:  -38230.31 --> -38230.08 
+optimize shape parameter:  -38230.08 --> -38230.08 
+optimize edge weights:  -38230.08 --> -38230.02 
+optimize base frequencies:  -38230.02 --> -38229.96 
+optimize rate matrix:  -38229.96 --> -38229.94 
+optimize shape parameter:  -38229.94 --> -38229.94 
+optimize edge weights:  -38229.94 --> -38229.94 
+optimize base frequencies:  -38229.94 --> -38229.93 
+optimize rate matrix:  -38229.93 --> -38229.93 
+optimize shape parameter:  -38229.93 --> -38229.93 
+optimize edge weights:  -38229.93 --> -38229.93 
+optimize base frequencies:  -38229.93 --> -38229.93 
+optimize rate matrix:  -38229.93 --> -38229.93 
+optimize shape parameter:  -38229.93 --> -38229.93 
+optimize edge weights:  -38229.93 --> -38229.93 
+optimize base frequencies:  -38229.93 --> -38229.93 
+optimize rate matrix:  -38229.93 --> -38229.93 
+optimize shape parameter:  -38229.93 --> -38229.93 
+optimize edge weights:  -38229.93 --> -38229.93 
+
+ loglikelihood: -38229.93 
+
+unconstrained loglikelihood: -28615.82 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9959 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.096047 4.738006 0.7725412
+c 1.0960466 0.000000 1.234725 5.1513001
+g 4.7380059 1.234725 0.000000 1.0000000
+t 0.7725412 5.151300 1.000000 0.0000000
+
+Base frequencies:  
+0.1003867 0.2132882 0.3904943 0.2958308 
+50 sequences with 5000 character and 2136 different site patterns.
+The states are a c g t 
+optimize edge weights:  -41820.35 --> -41813.88 
+optimize base frequencies:  -41813.88 --> -41079.85 
+optimize rate matrix:  -41079.85 --> -39722.64 
+optimize shape parameter:  -39722.64 --> -39369.03 
+optimize edge weights:  -39369.03 --> -39352.32 
+optimize topology:  -39352.32 --> -39352.32 
+0 
+optimize base frequencies:  -39352.32 --> -39300.72 
+optimize rate matrix:  -39300.72 --> -39286.4 
+optimize shape parameter:  -39286.4 --> -39286.03 
+optimize edge weights:  -39286.03 --> -39284.91 
+optimize base frequencies:  -39284.91 --> -39282.44 
+optimize rate matrix:  -39282.44 --> -39282.04 
+optimize shape parameter:  -39282.04 --> -39282.04 
+optimize edge weights:  -39282.04 --> -39281.93 
+optimize base frequencies:  -39281.93 --> -39281.81 
+optimize rate matrix:  -39281.81 --> -39281.77 
+optimize shape parameter:  -39281.77 --> -39281.77 
+optimize edge weights:  -39281.77 --> -39281.77 
+optimize base frequencies:  -39281.77 --> -39281.76 
+optimize rate matrix:  -39281.76 --> -39281.76 
+optimize shape parameter:  -39281.76 --> -39281.76 
+optimize edge weights:  -39281.76 --> -39281.76 
+optimize base frequencies:  -39281.76 --> -39281.76 
+optimize rate matrix:  -39281.76 --> -39281.76 
+optimize shape parameter:  -39281.76 --> -39281.76 
+optimize edge weights:  -39281.76 --> -39281.76 
+optimize base frequencies:  -39281.76 --> -39281.75 
+optimize rate matrix:  -39281.75 --> -39281.75 
+optimize shape parameter:  -39281.75 --> -39281.75 
+optimize edge weights:  -39281.75 --> -39281.75 
+optimize base frequencies:  -39281.75 --> -39281.75 
+optimize rate matrix:  -39281.75 --> -39281.75 
+optimize shape parameter:  -39281.75 --> -39281.75 
+optimize edge weights:  -39281.75 --> -39281.75 
+
+ loglikelihood: -39281.75 
+
+unconstrained loglikelihood: -28956.27 
+Discrete gamma model
+Number of rate categories: 4 
+Shape parameter: 499.9965 
+
+Rate matrix:
+          a        c        g         t
+a 0.0000000 1.319499 4.636452 0.8694931
+c 1.3194986 0.000000 1.166219 5.2836201
+g 4.6364522 1.166219 0.000000 1.0000000
+t 0.8694931 5.283620 1.000000 0.0000000
+
+Base frequencies:  
+0.1003286 0.203166 0.3865667 0.3099386 

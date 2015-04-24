@@ -1,6 +1,8 @@
 
-gc_test_gtr_g <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE){
+gc_test <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE, model = NULL){
     require(phangorn)
+
+    print(dna_data)
 
     concat_list <- function(c_list){
         if(length(c_list) == 2 ){
@@ -37,13 +39,55 @@ gc_test_gtr_g <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE){
         dna_data <- phyDat(rem_gaps(dna_data))
     }
 
-    opt_data <- function(dna_data) optim.pml(pml(tree = start_tree, data = dna_data, k = 4, model = 'GTR'), optNni = T, optBf = T, optQ = T, optGamma = T, model = 'GTR')
+    if(is.null(model)) stop('please specify a substitution model. It sholud be one of JC, GTR, GTR+G, GTR+G+I')
 
-    get_sim_rep <- function(mle, data_phydat){
-        rates = phangorn:::discrete.gamma(mle$shape, k = 4)
-        sim_dat_all<- lapply(rates, function(r) simSeq(mle$tree, l = round(length(data_phydat[[1]])/4, 0), Q = mle$Q, bf = mle$bf, rate = r))
-        sim_dat <- concat_list(sim_dat_all)
-        sim_opt <- opt_data(sim_dat)
+    if(model == 'JC'){
+        opt_data <- function(dna_data) optim.pml(pml(tree = start_tree, data = dna_data, k = 1, model = 'JC'), optNni = T, optBf = F, optQ = F, model = 'JC')
+    }else if(model == 'GTR'){
+        opt_data <- function(dna_data) optim.pml(pml(tree = start_tree, data = dna_data, k = 1, model = 'GTR'), optNni = T, optBf = T, optQ = T, model = 'GTR')
+    }else if(model == 'GTR+G'){
+        opt_data <- function(dna_data) optim.pml(pml(tree = start_tree, data = dna_data, k = 4, model = 'GTR'), optNni = T, optBf = T, optQ = T, optGamma = T, model = 'GTR')
+    }else  if(model == 'GTR+G+I'){
+        opt_data <- function(dna_data) optim.pml(pml(tree = start_tree, data = dna_data, k = 4, model = 'GTR'), optNni = T, optBf = T, optQ = T, optGamma = T, model = 'GTR', optInv = T)
+    }else{
+        stop('please specify a substitution model. It sholud be one of JC, GTR, GTR+G, GTR+G+I')
+    }
+
+    s_len <- length(as.DNAbin(dna_data)[1, ])
+
+    get_sim_rep <- function(mle){
+        if(model == 'JC'){
+            sim_dat <- simSeq(mle$tree, l =  s_len)
+            sim_opt <- opt_data(sim_dat)
+        }else if(model == 'GTR'){
+            sim_dat <- simSeq(mle$tree, l = s_len, bf = mle$bf, mle$Q)
+            sim_opt <- opt_data(sim_dat)
+        }else if(model == 'GTR+G'){
+                    rates = phangorn:::discrete.gamma(mle$shape, k = 4)
+                    sim_dat_all<- lapply(rates, function(r) simSeq(mle$tree, l = round(s_len/4, 0), Q = mle$Q, bf = mle$bf, rate = r))
+                    sim_dat <- concat_list(sim_dat_all)
+                    sim_opt <- opt_data(sim_dat)
+                }else if(model == 'GTR+G+I'){
+                    rates = phangorn:::discrete.gamma(mle$shape, k = 4)
+                    ninv <- mle$inv * s_len
+                    nvar <- s_len - ninv
+#
+                    print(c(ninv, nvar))
+#
+                    sim_dat_var <- lapply(rates, function(r) simSeq(mle$tree, l = round(nvar/4, 0), Q = mle$Q, bf = mle$bf, rate = r))
+                    sim_dat_inv <- simSeq(mle$tree, l = round(ninv, 0), Q = mle$Q, bf = mle$bf, rate = 0.0005)
+                    sim_dat_all <- c(sim_dat_var, list(sim_dat_inv))
+                    sim_dat <- concat_list(sim_dat_all)
+
+
+                    sim_opt <- opt_data(sim_dat)
+                }else{
+                    stop('please specify a substitution model. It sholud be one of JC, GTR, GTR+G, GTR+G+I')
+                }
+ #
+        print(sim_dat)
+        print(sim_opt)
+#
         return(multlik(sim_dat) - sim_opt$logLik)
     }
 
@@ -52,21 +96,25 @@ gc_test_gtr_g <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE){
     con_lik_dna_data <- mle_dna_data$logLik
     delta_stat <- unc_lik_dna_data - con_lik_dna_data
 
+#
+    print(mle_dna_data)
+#
+
     if(parallel){
         require(foreach)
         require(doParallel)
-        cl <- makeCluster(4)
+        cl <- makeCluster(6)
         registerDoParallel(cl)
-        delta_sims <- foreach(x = 1:nsims, .packages = c('phangorn', 'ape'), .combine = c) %dopar% get_sim_rep(mle_dna_data, dna_data)
+        delta_sims <- foreach(x = 1:nsims, .packages = c('phangorn', 'ape'), .combine = c) %dopar% get_sim_rep(mle_dna_data)
         stopCluster(cl)
     }else{
         delta_sims<- vector()
         for(i in 1:nsims){
-            delta_sims[i] <- get_sim_rep(mle_dna_data, dna_data)
+            delta_sims[i] <- get_sim_rep(mle_dna_data)
         }
     }
 
-    return(list(delta_stat, delta_sims, sum(delta_stat > delta_sims) / nsims))
+    return(list(delta_stat, delta_sims, sum(delta_stat > delta_sims) / nsims, mle_dna_data))
 }
 
 
@@ -75,14 +123,89 @@ gc_test_gtr_g <- function(dna_data, parallel = F, nsims = 10, rm_gaps = TRUE){
 
 # SImulate a toy data set under GTR+G
 
-#fix_tree <- rtree(10)
-#fix_tree$edge.length <- fix_tree$edge.length / 5
-#gamma_cats <- phangorn:::discrete.gamma(alpha = 50, k = 4)
 
-#slen <- 100
-#s1_list <- lapply(gamma_cats, function(x) simSeq(fix_tree, l = round(slen / length(gamma_cats), 0), rate = x, model = 'GTR', bf = c(0.2, 0.1, 0.3, 0.4)))
-#dna_data <- concat_list(s1_list)
+    concat_list <- function(c_list){
+        if(length(c_list) == 2 ){
+            return(c(c_list[[1]], c_list[[2]]))
+        }else if(length(c_list) > 2){
+            return(c(c_list[[1]], concat_list(c_list[-1])))
+        }else{
+            return(c_list)
+        }
+    }
 
-#t_fun <- gc_test_gtr_g(dna_data, parallel= T, nsims = 100)
-#hist(t_fun[[2]])
-#####
+
+    multlik <- function(al){
+        if(class(al) != 'DNAbin') al <- as.DNAbin(al)
+        if(!is.matrix(al)) stop('Please supply the sequences as a matrix')
+        nsites <- ncol(al)
+        al_patterns <- table(sapply(1:nsites, function(x) paste(al[, x], collapse = '')))
+        return(sum(sapply(al_patterns, function(x) (log(x) * x))) - (nsites*log(nsites)))
+    }
+
+
+library(phangorn)
+library(methods)
+
+#Simulate JC
+jc_jc <- list()
+for(i in 1:10){
+    fix_tree <- rtree(50)
+    fix_tree$edge.length <- rlnorm(n = length(fix_tree$edge.length), meanlog = -4.5, sd = 0.3)
+    sim_data <- simSeq(fix_tree, l = 5000)
+    jc_jc[[i]] <- list(gc_test(sim_data, parallel = T, nsims = 10, model = 'JC'), fix_tree)
+}
+save(jc_jc, file = 'jc_jc.Rdata')
+
+jc_gtr <- list()
+for(i in 1:10){
+    fix_tree <- rtree(50)
+    fix_tree$edge.length <- rlnorm(n = length(fix_tree$edge.length), meanlog = -4.5, sd = 0.3)
+    sim_data <- simSeq(fix_tree, l = 5000)
+    jc_gtr[[i]] <- list(gc_test(sim_data, parallel = T, nsims = 10, model = 'GTR'), fix_tree)
+}
+save(jc_gtr, file = 'jc_gtr.Rdata')
+
+jc_gtr_g <- list()
+for(i in 1:10){
+    fix_tree <- rtree(50)
+    fix_tree$edge.length <- rlnorm(n = length(fix_tree$edge.length), meanlog = -4.5, sd = 0.3)
+    sim_data <- simSeq(fix_tree, l = 5000)
+    jc_gtr_g[[i]] <- list(gc_test(sim_data, parallel = T, nsims = 10, model = 'GTR+G'), fix_tree)
+}
+save(jc_gtr_g, file = 'jc_gtr_g.Rdata')
+
+# Simulate GTR
+gtr_jc <- list()
+for(i in 1:10){
+    fix_tree <- rtree(50)
+    fix_tree$edge.length <- rlnorm(n = length(fix_tree$edge.length), meanlog = -4.5, sd = 0.3)
+    sim_data <- simSeq(fix_tree, l = 5000, Q = c(1.34, 4.81, 0.93, 1.24, 5.56, 1), bf = c(0.1, 0.2, 0.4, 0.3))
+    gtr_jc[[i]] <- list(gc_test(sim_data, parallel = T, nsims = 10, model = 'JC'), fix_tree)
+}
+save(gtr_jc, file = 'gtr_jc.Rdata')
+
+gtr_gtr <- list()
+for(i in 1:10){
+    fix_tree <- rtree(50)
+    fix_tree$edge.length <- rlnorm(n = length(fix_tree$edge.length), meanlog = -4.5, sd = 0.3)
+    sim_data <- simSeq(fix_tree, l = 5000, Q = c(1.34, 4.81, 0.93, 1.24, 5.56, 1), bf = c(0.1, 0.2, 0.4, 0.3))
+    gtr_gtr[[i]] <- list(gc_test(sim_data, parallel = T, nsims = 10, model = 'GTR'), fix_tree)
+}
+save(gtr_gtr, file = 'gtr_gtr.Rdata')
+
+gtr_gtr_g <- list()
+for(i in 1:10){
+    fix_tree <- rtree(50)
+    fix_tree$edge.length <- rlnorm(n = length(fix_tree$edge.length), meanlog = -4.5, sd = 0.3)
+    sim_data <- simSeq(fix_tree, l = 5000, Q = c(1.34, 4.81, 0.93, 1.24, 5.56, 1), bf = c(0.1, 0.2, 0.4, 0.3))
+    gtr_gtr_g[[i]] <- list(gc_test(sim_data, parallel = T, nsims = 10, model = 'GTR+G'), fix_tree)
+}
+save(gtr_gtr_g, file = 'gtr_gtr_g.Rdata')
+
+
+
+##########
+
+
+
