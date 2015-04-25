@@ -3,24 +3,27 @@ simulate_hetero <- function(ntax = 50, slen = 1000){
 
 
     # 10 taxa have different base frequencies
-    tr1 <- rtree(ntax - 11)
-    tr1$edge.length <- rlnorm(length(tr1$edge.length), meanlog = -4.5, sd = 0.3)
-    s1 <- simSeq(tr1, l = slen, Q = c(1.34, 4.81, 0.93, 1.24, 5.56, 1), bf = c(0.1, 0.2, 0.4, 0.3))
-    
-    tr2 <- rtree(10)
-    tr2$edge.length <- rlnorm(length(tr2$edge.length), meanlog = -4.5, sd = 0.3)
-    s2 <- simSeq(tr2, l = slen, Q = c(1.34, 4.81, 0.93, 1.24, 5.56, 1), bf = c(0.3, 0.4, 0.2, 0.1))
+    tr1 <- rtree(ntax - 4)
+    tr1$edge.length <- rlnorm(length(tr1$edge.length), meanlog = -1.5, sd = 0.3)
+    tr1$tip.label <- paste0('A', 1:length(tr1$tip.label))
+    s1 <- simSeq(tr1, l = slen, Q = c(1.34, 4.81, 0.93, 1.24, 5.56, 1), bf = c(0.49, 0.01, 0.01, 0.49))
+#    s1 <- simSeq(tr1, l = slen, Q = c(1.34, 4.81, 0.93, 1.24, 5.56, 1), bf = c(0.01, 0.49, 0.49, 0.01))
+
+    tr2 <- rtree(5)
+    tr2$edge.length <- rlnorm(length(tr2$edge.length), meanlog = -1.5, sd = 0.3)
+    tr2$tip.label <- paste0('B', 1:length(tr2$tip.label))
+    s2 <- simSeq(tr2, l = slen, Q = c(1.34, 4.81, 0.93, 1.24, 5.56, 1), bf = c(0.01, 0.49, 0.49, 0.01), rootseq = as.vector(as.character(as.DNAbin(s1)[1, ]))   )
 
     tr3 <- bind.tree(tr1, tr2, where = 1)
-    tr3$tip.label <- paste0('t', 1:length(tr3$tip.label))
 
-    names(s1) <- paste0('t', 1:length(s1))
-    names(s1) <- paste0('t', length(s1):(length(s1)-1 + length(s2)))
+#    names(s1) <- paste0('t', 1:length(s1))
+#    names(s1) <- paste0('t', length(s1):(length(s1)-1 + length(s2)))
 
-    s3 <- rbind(as.DNAbin(s1)[-length(s1), ], as.DNAbin(s2))
- # Print multinomial likelihood to show that there are differences in the number of site patterns.   
+    s3 <- rbind(as.DNAbin(s1)[-1, ], as.DNAbin(s2))
+#    rownames(s3) <- c(paste0('B', 1:(length(s1) - 1)), paste0('B', 1:length(s2)))
+ # Print multinomial likelihood to show that there are differences in the number of site patterns.
 #    print(c(multlik(s3), multlik(as.DNAbin(simSeq(tr3, bf = c(0.1, 0.2, 0.4, 0.3))))))
-    
+
     return(list(tr3, s3))
 }
 
@@ -274,11 +277,11 @@ for(i in 1:10){
 save(gtrg_gtrg, file = 'gtrg_gtrg.Rdata')
 
 
-}
+
 
 long_tree_gtrg <- list()
 for(i in 1){
-    fix_tree <- rtree(50)
+    fix_tree <- rtree(10)
     fix_tree$edge.length <-  rlnorm(n = length(fix_tree$edge.length), meanlog = -4.5, sd = 0.3)
     gamma_cats <- phangorn:::discrete.gamma(0.05, 4)
     sim_data <- concat_list(lapply(gamma_cats, function(r) simSeq(fix_tree, l = 250, Q = c(1.34, 4.81, 0.93, 1.24, 5.56, 1), bf = c(0.1, 0.2, 0.4, 0.3), rate = r)))
@@ -287,14 +290,14 @@ for(i in 1){
     cat('Completed simulation replicate', i, 'for GTR+G+long tree_GTR+G\n')
 }
 save(long_tree_gtrg, file = 'gtrg_gtrg.Rdata')
-
-stop('run long tree')
+}
 
 hetero_gtrg <- list()
-for(i in 1:3){
+i = 1
+#for(i in 1:3){
     sim_het <- simulate_hetero(ntax = 50, slen = 1000)
     fix_tree <- sim_het[[1]]
     sim_data <- sim_het[[2]]
     hetero_gtrg[[i]] <- list(gc_test(sim_data, parallel = T, nsims = 10, model = 'GTR+G'), fix_tree)
-    cat('Completed simulation replicate', i, 'for hetero GTR+G\n')
-} 
+#    cat('Completed simulation replicate', i, 'for hetero GTR+G\n')
+#}
