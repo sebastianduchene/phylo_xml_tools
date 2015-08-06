@@ -1,8 +1,19 @@
 import re, sys, os, random, copy
 
-file_name = raw_input("Please input the path to your file, or drag it here: ")
-n_rand = int(raw_input("How many data sets with randomised dates should I produce? "))
-out_name = raw_input("What should be the name of the output file(s)? ")
+file_name, n_rand, out_name = str(sys.argv[1:])
+
+
+
+print 'The arguments for this script are: %s' %('file_name', 'n_rand', 'out_name')
+
+print 'The file name is %s, number of randomisations %s, out name is %s' %(file_name, n_rand, out_name)
+
+
+
+
+#file_name = raw_input("Please input the path to your file, or drag it here: ")
+#n_rand = int(raw_input("How many data sets with randomised dates should I produce? "))
+#out_name = raw_input("What should be the name of the output file(s)? ")
 
 data_lines = open(re.sub(r' ', '', file_name)  , 'r').readlines()
 
@@ -23,7 +34,7 @@ dates_blocks = [data_lines[i] for i in dates_location]
 
 shuffle_index = []
 
-for i in range(n_rand):
+for i in range(int(n_rand)):
     shuffle_index.append(random.sample(range(len(dates_location)), len(dates_location)))
 
 # insert in the original position
@@ -49,5 +60,3 @@ for i in range(len(shuffle_index)):
     open(out_name+str(i+1)+".xml", 'w').writelines(lines_temp)
 
 print "I have saved the files in %s" %os.getcwd()
-
-

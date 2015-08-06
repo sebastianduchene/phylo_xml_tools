@@ -1,8 +1,15 @@
 import re, sys, os, random, copy
 
+print len(sys.argv)
+
 file_name, n_rand, out_name = sys.argv[1:]
 
-print file_name, n_rand, out_name
+print file_name
+print n_rand
+print out_name
+
+
+print 'The file name is %s, number of randomisations %s, out name is %s' %(file_name, n_rand, out_name)
 
 #file_name = raw_input("Please input the path to your file, or drag it here: ")
 #n_rand = int(raw_input("How many data sets with randomised dates should I produce? "))
@@ -27,7 +34,7 @@ dates_blocks = [data_lines[i] for i in dates_location]
 
 shuffle_index = []
 
-for i in range(n_rand):
+for i in range(int(n_rand)):
     shuffle_index.append(random.sample(range(len(dates_location)), len(dates_location)))
 
 # insert in the original position
